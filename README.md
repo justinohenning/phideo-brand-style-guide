@@ -1,0 +1,38 @@
+# Phideo — brand style guide
+
+Consolidated brand system for **Phideo** (phideo.io) — the AR app that attaches a video to a
+printed photo. Point a phone at the print and the video plays over it. *phideo = photo + video.*
+
+Compiled by Lunchbox, 15 September 2026, from every brand source in circulation:
+
+- **Brand Manual V2** (G.O.A.T Consulting Group, 2023)
+- the **asset hub** (assets.lunchbox.agency/brand/phideo — logos, fonts, social, photography, app, video)
+- Figma **"Phideo Website"** and **"Phideo | Mailer Designs"**
+- the **live site** (phideo.io — WordPress + Oxygen 6)
+
+## Files
+
+| file | what it is |
+|---|---|
+| [`index.html`](index.html) | The visual style guide — open it in a browser. Self-contained (Amenti embedded, Poppins from Google Fonts). Same content as the hosted version. |
+| [`design-system.md`](design-system.md) | The system in text: brand core, colour, typography, logo, imagery language, graphic devices, components (web / email / app / print), motion, voice. |
+| [`discrepancies.md`](discrepancies.md) | **Read first if you're deciding anything.** Every place the sources disagree — colour values, CMYK, typefaces, type scale, the ®, contact details, gradients — with evidence and a recommendation. The decision column is open. |
+| [`logo/phideo-logo-color-spec.svg`](logo/phideo-logo-color-spec.svg) | The 2-tone logo re-coloured to the spec values `#702283` / `#E52329`. |
+| [`logo/phideo-logo-color-hub-original.svg`](logo/phideo-logo-color-hub-original.svg) | The same file as it sits on the asset hub today (`#722C8F` / `#EC1B25`) — kept for comparison, see discrepancy #1. |
+
+## The short version
+
+- **Colour:** purple `#702283` for structure and ink, red `#E52329` for anything you tap. No
+  secondary palette in print; a digital-only violet family (`#B200ED` …) for web and app if
+  adopted (discrepancy #4).
+- **Type:** Amenti (Black / Bold / Medium / Regular) for display and headings; Poppins for body
+  and UI (recommendation — discrepancy #5).
+- **Logo:** the `o` is the app icon. Clearspace = the height of the `o`. White on gradients.
+  Never red-on-purple or purple-on-red.
+- **Imagery:** the print is still (often black-and-white); the same scene is alive in colour
+  inside the phone. Both visible at once. Hands, real prints, delight.
+- **Voice:** warm, plain, a little astonished. "Bring Photos to Life. Instantly." ·
+  "Scan. Watch. Experience."
+
+Items marked `(#n)` in the design system are open decisions; the numbers point into
+`discrepancies.md`.
