@@ -156,11 +156,11 @@ section:first-of-type{border-top:0}
 .knowhow .copyzone.b{left:0;right:0;bottom:0;height:40%;border-top:1.5px dashed #B79FC4}
 .knowhow .copyzone.l{left:0;top:0;bottom:0;width:42%;border-right:1.5px dashed #B79FC4;background:linear-gradient(90deg,rgba(43,10,52,.14),rgba(43,10,52,.05))}
 .knowhow .crop{border-color:#B79FC4}
-.photo-hero{position:relative;border-radius:28px;overflow:hidden;margin-top:22px;background:#0A0709 url("photography/plate-w.png") center/cover;min-height:470px;display:flex;flex-direction:column;justify-content:flex-end;align-items:center;text-align:center;padding:150px 32px 30px;box-shadow:var(--shadow)}
+.photo-hero{position:relative;border-radius:28px;overflow:hidden;margin-top:22px;background:#0A0709 url("photography/plate-w.png") center/cover;min-height:500px;display:flex;flex-direction:column;justify-content:flex-end;align-items:center;text-align:center;padding:150px 32px 18px;box-shadow:var(--shadow)}
 .photo-hero::before{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(43,10,52,0) 42%,rgba(43,10,52,.84) 100%)}
 .photo-hero .eb,.photo-hero h3,.photo-hero .btn{position:relative;z-index:1}
 .photo-hero .eb{font-family:var(--display);font-weight:400;font-size:12px;letter-spacing:.42em;text-transform:uppercase;color:#E9D5F5}
-.photo-hero h3{color:#fff;font-size:clamp(26px,3.4vw,36px);font-weight:700;letter-spacing:.03em;line-height:1.2;max-width:24ch;margin:10px auto 20px}
+.photo-hero h3{color:#fff;font-size:clamp(26px,3.4vw,36px);font-weight:700;letter-spacing:.03em;line-height:1.2;max-width:24ch;margin:8px auto 16px}
 .photo-hero .lobe{position:absolute;top:0;left:0;background:var(--bg);padding:18px 36px 15px 27px;border-bottom-right-radius:39px;z-index:2}
 .photo-hero .lobe svg{height:30px;width:auto;display:block}
 .photo-hero .lobe::before,.photo-hero .lobe::after{content:"";position:absolute;width:24px;height:24px;background:radial-gradient(circle at 100% 100%,transparent 23.5px,var(--bg) 24px)}
@@ -219,14 +219,14 @@ section:first-of-type{border-top:0}
 .mail.auto .top svg{height:5cqw;width:auto}
 .mail.auto .rule{height:.7cqw;background:linear-gradient(90deg,var(--purple),var(--red))}
 
-.mail.photo .hd{aspect-ratio:600/420;background:#1C0824 url("photography/plate-m.png") center/cover;justify-content:flex-end;padding-bottom:2.5cqw}
+.mail.photo .hd{aspect-ratio:600/420;background:#1C0824 url("photography/plate-m.png") left center/cover;justify-content:flex-end;padding-bottom:2.5cqw}
 .mail.photo .hd::before{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(43,10,52,0) 32%,rgba(43,10,52,.88) 100%)}
 .mail.photo .hd .eb,.mail.photo .hd h3,.mail.photo .hd .btn{position:relative;z-index:1}
 .mail.photo .hd h3{font-weight:700;font-size:6.33cqw;letter-spacing:.02em;line-height:1.18;margin-bottom:1.5cqw}
 .mail.photo .hd .btn{margin-top:2.8cqw}
 
-.mail.story .hd{aspect-ratio:600/420;background:#0B0710 url("photography/plate-s.png") center/cover;justify-content:flex-end;padding-bottom:6cqw}
-.mail.story .hd::before{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(8,5,12,0) 44%,rgba(8,5,12,.78) 100%)}
+.mail.story .hd{aspect-ratio:600/420;background:#1C0824 url("photography/plate-s.png") left center/cover;justify-content:flex-end;padding-bottom:4cqw}
+.mail.story .hd::before{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(43,10,52,0) 40%,rgba(43,10,52,.84) 100%)}
 .mail.story .hd .eb,.mail.story .hd h3,.mail.story .hd .btn{position:relative;z-index:1}
 .mail.story .hd .eb{color:#D9A9F0;margin-bottom:2cqw}
 .mail.story .hd h3{font-weight:400;font-size:5.67cqw;letter-spacing:.05em;margin-bottom:1cqw}
@@ -679,12 +679,14 @@ footer{margin-top:40px;font-size:13px;color:var(--ink-3)}
   </div>
   <p class="cap" style="margin-top:12px">Reshot 2026-09-17 (GPT-Image 2.5, 2K) with the mechanic as canon · files in <code>photography/</code>. Every brief is written by five roles — creative director, photographer, set dresser, lighting specialist, graphic designer — and every print/screen pair passes the mechanic gate: same image on both, screen alive and brighter. Warm shots (01, 02, 04, 05) are the everyday register; 03 and 06 are the campaign register — richer and more dramatic, but never dull.</p>
 
-  <h3 style="margin-top:34px">Photos under the brand — four rules</h3>
+  <h3 style="margin-top:34px">Photos under the brand — six rules</h3>
   <div class="grid g2" style="margin-top:14px">
     <div class="card"><h4>1 · The plum scrim</h4><p>Type never sits raw on a photograph. A gradient rises from the edge that carries the type — transparent → <code>rgba(43,10,52,.84)</code> (near-black plum, not grey) — covering the bottom 55–65%. Type on it is always white; on very dark photos (06) a neutral near-black scrim at lower opacity is enough.</p></div>
     <div class="card"><h4>2 · The screen is sacred</h4><p>Scrims, washes and logos never dim the phone screen — it must stay the brightest, most saturated element in the frame. Anchor the scrim to the edge <em>away</em> from the screen, and crop so the screen escapes it.</p></div>
     <div class="card"><h4>3 · Accents in-scene, not in post</h4><p>Purple, red and violet enter as wardrobe, props and light — ribbon, pencil, mug, raincoat, screen glow — planted at the shoot. No duotones, no colour overlays on faces, no recolouring in post.</p></div>
     <div class="card"><h4>4 · Containers do the branding</h4><p>Photos live inside brand geometry: 18–28px rounded corners or the squircle window, the lobe carrying the logo in the top-left, the scrim carrying the type. The photo stays honest; the brand rides on the frame around it.</p></div>
+    <div class="card"><h4>5 · Never cover the point of interest</h4><p>No overlay — lobe, logo, type, badge — ever sits on the subject, above all on <b>faces</b> or the living screen. Overlays live on quiet image only. If a layout's lobe would touch the subject, the <em>plate</em> is wrong (reframe or reshoot); never ship the overlap. <span class="cap">(Client review, 2026-09-17.)</span></p></div>
+    <div class="card"><h4>6 · Orientation lock</h4><p>The screen shows what a real camera would see. Three honest reads: the phone <b>matches the print's orientation</b>; or the print's <b>edges are visible inside the screen</b>; or the view is an unmistakable <b>zoomed-in detail</b>. Never the whole scene recomposed to fit the screen's aspect — a portrait phone showing an entire landscape print full-bleed breaks the camera-mode illusion instantly. <span class="cap">(Client review, 2026-09-17.)</span></p></div>
   </div>
 
   <h3 style="margin-top:34px">Photo as the hero — a layered stack, not segments</h3>
@@ -873,14 +875,14 @@ footer{margin-top:40px;font-size:13px;color:var(--ink-3)}
         <div class="lobe"><svg viewBox="36 196 461 120" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><use href="#logo2t"/></svg></div>
         <div class="eb">From the field</div>
         <h3>The gallery that came alive</h3>
-        <button class="btn ghost" type="button">Read the Story</button>
+        <button class="btn action" type="button">Read the Story</button>
       </div>
       <div class="bd">
         <p style="margin:0 auto">How a photography exhibit in Los Angeles hid twelve films inside twelve prints.</p>
       </div>
       <div class="ftr">Unsubscribe · View in the browser · 18129 Kingsport Drive, Malibu, CA 90265</div>
     </div>
-    <div class="cap" style="margin-top:8px"><b>Story / editorial — dark photo hero</b> — campaign-register image, so the scrim is a lighter neutral near-black and the eyebrow goes lavender. A soft send has no red: the glass-white pill is the calm CTA; red would promote it to marketing.</div></div>
+    <div class="cap" style="margin-top:8px"><b>Story / editorial — photo hero</b> — campaign-register image: richer and more directional than the everyday sends, but still bright and inviting — drama comes from light and colour, never from a dark room. The eyebrow goes lavender, and the CTA follows the button rules like any other send: <b>the send's one action is a real brand button</b> — the red pill on dark grounds. (The glass pill is retired as a CTA — client review 2026-09-17: it reads as unbranded.)</div></div>
   </div>
   <p class="cap" style="margin-top:14px">Footers carry the real Malibu address, no phone number, and a current © year (settled 17 Sep 2026) — the live mailers still carry the Mailercloud Tokyo placeholder; replace before any send.</p>
   <h3 style="margin-top:30px">App</h3>

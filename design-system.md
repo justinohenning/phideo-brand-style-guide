@@ -281,8 +281,11 @@ never as a filter in post.
 
 Two registers: **everyday** (warm, window- or lamp-lit, joyful: The Moment, Demonstrate,
 The Wall, The Gift) and **campaign** (dramatic, the screen carries the colour: Looking,
-Two Worlds). Even the campaign register stays rich and luminous — dark ≠ dull; the emotion
-is wonder, never bleak.
+Two Worlds). **The brightness floor (client review, 2026-09-17):** this is a fun, bright
+brand — the campaign register's drama comes from *directional light and rich colour*,
+never from darkness. Bright studio, warm gallery, golden hour: yes. A near-black room
+with one pool of light: no — if a frame could pass for a moody thriller still, it is off
+brand, whatever the register.
 
 Rules for photos in layouts:
 
@@ -296,13 +299,27 @@ Rules for photos in layouts:
    recolouring. Plant the brand colour at the shoot.
 4. **Containers do the branding** — photos live inside brand geometry: 18–28px radii or the
    squircle window, the lobe carrying the logo top-left, the scrim carrying the type.
+5. **Never cover the point of interest** (client review, 2026-09-17) — no overlay (lobe,
+   logo, type, badge) ever sits on the subject, above all on **faces** or the living
+   screen. Overlays live on quiet image only. If a layout's lobe would touch the subject,
+   the *plate* is wrong — reframe or reshoot it; never ship the overlap. An overlapped
+   focal point is the single fastest "an AI made this" tell.
+6. **Orientation lock** (client review, 2026-09-17) — the screen shows what a real camera
+   would see. Three honest reads: the phone **matches the print's orientation**; the
+   print's **edges are visible inside the screen**; or the view is an unmistakable
+   **zoomed-in detail**. Never the whole scene recomposed to fit the screen's aspect — a
+   portrait phone showing an entire landscape print full-bleed destroys the camera-mode
+   illusion.
 
 **Photo as the hero:** same anatomy as the gradient hero — lobe top-left, content centred
 horizontally — but the content drops to the bottom edge onto the scrim (the photo is the
 content; don't float type mid-image). Eyebrow goes lavender `#E9D5F5`, headline white,
 red keeps its one job (the primary action). In email, the photo-hero marketing template and
-the dark story/editorial template in the style guide are the references; soft sends use a
-glass-white pill instead of red.
+the story/editorial template in the style guide are the references. **Every send's one CTA
+is a real brand button** per the button rules — the red pill on dark grounds and
+photography, the purple pill on light grounds. The glass-white pill is retired as a CTA
+(client review, 2026-09-17: it reads as unbranded); glass is for captions and panels,
+never for actions.
 
 **Production rule (2026-09-17):** photo-led layouts are never assembled from photos that
 already exist. The pipeline is **goal → wireframe → shoot-to-wireframe → CD QA**. The

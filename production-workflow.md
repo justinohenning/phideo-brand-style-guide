@@ -95,14 +95,21 @@ One prompt/brief carries all five voices; a brief missing a role's answer isn't 
 Review the **final composite** (photo + scrim + type + lobe + CTA), never the photo alone:
 
 1. **Goal** — does the piece deliver the producer's paragraph at a glance?
-2. **Impact** — is the subject unobstructed? Type entirely on negative space? Screen
-   the brightest point? Would you stop scrolling?
+2. **Impact** — is the subject unobstructed? **Nothing overlaps the point of interest** —
+   the lobe, logo, type and badges never sit on the subject, above all on faces (an
+   overlapped focal point is the fastest "an AI made this" tell). Type entirely on
+   negative space? Screen the brightest point? Would you stop scrolling?
 3. **Brand** — scrim per photography rule 1, screen sacred per rule 2, accents in-scene
-   per rule 3, containers per rule 4; type scale, tracking and red-usage per the system.
+   per rule 3, containers per rule 4, focal point uncovered per rule 5, orientation lock
+   per rule 6; **brightness floor** — fun, bright brand: drama comes from light and
+   colour, never a dark room; type scale, tracking and red-usage per the system; the
+   send's CTA is a real brand button (red pill on dark, purple on light — never glass).
 4. **Mechanic** — if a print and a screen share the frame: same image on both, screen a
    slightly tighter living crop, print frozen, life inside the print's frame
-   (design-system §5, "The mechanic"). A screen showing unrelated footage is an automatic
-   reshoot, not a fix.
+   (design-system §5, "The mechanic"). **Orientation lock:** the screen shows what a real
+   camera would see — matching orientation, or the print's edges inside the screen, or an
+   unmistakable zoomed detail; a portrait screen full-bleeding an entire landscape print
+   is an automatic FIX. A screen showing unrelated footage is an automatic reshoot.
 
 Verdict: **ship / fix (specific notes) / reshoot**. Two failed fixes = reshoot.
 
@@ -124,8 +131,10 @@ Verdict: **ship / fix (specific notes) / reshoot**. Two failed fixes = reshoot.
 - **Wireframe:** W1 at 600×420. Copy footprint bottom 40–45% → point of interest (the
   B&W print + phone with the living sunset) framed in the upper 55–60%; the charcoal
   studio wall falls to black beneath it. Shot wider than the crop.
-- **Shot brief:** single spotlight from above so the light pools on the print and dies
-  before the bottom of frame; phone screen upper-right; 3:2.
+- **Shot brief:** bright airy daylight studio (brightness floor applies — no dark rooms);
+  landscape print pinned to a warm sunlit wall, **landscape** phone in camera mode over it
+  (orientation lock); cluster upper half right of centre; the lower frame quiet lit wall
+  easing to gentle shadow. The plum scrim supplies the type contrast, not the scene. 3:2.
 
 ### Plate W — web photo hero ("The living side")
 - **Goal:** instant comprehension of the product promise over a full-width hero, with a
@@ -133,9 +142,10 @@ Verdict: **ship / fix (specific notes) / reshoot**. Two failed fixes = reshoot.
 - **Wireframe:** W1 at ~21:9. Copy footprint bottom 45%, centred → point of interest
   (print + phone) framed in the upper half, right of centre to balance the lobe top-left;
   empty dark wall/table runs the full bottom width. Shot wider than the crop.
-- **Shot brief:** the Two Worlds studio concept recomposed for 21:9: print and hand-held
-  phone raised into the upper half, spotlight tight, bottom half of frame near-black
-  empty space. 21:9.
+- **Shot brief:** the Two Worlds studio concept recomposed for 21:9: sunlit wall, landscape
+  print with a **landscape** phone in camera mode raised into the upper half right of
+  centre; upper left quiet lit wall; the full-width bottom band quiet wall easing to soft
+  shadow — lit, never black (brightness floor). The plum scrim carries the type. 21:9.
 
 ## QA log — 2026-09-17 (all three shipped)
 
@@ -185,6 +195,40 @@ every brief written by the five-role crew, every image gated on the mechanic.
   right of centre, 12% margins) rather than fighting the crop. Bonus: the reframe put the
   phone overlapping its print — a stronger live-camera read. Final: all three composites
   SHIP. Lesson: when a crop has no slack, fix the plate, not the layout.
+
+## QA log — client design review, story email (2026-09-17)
+
+The client reviewed the shipped story email and failed it on four counts. All four are now
+codified (photography rules 5–6, the brightness floor, the CTA rule) so no future pass
+repeats them:
+
+- **Too dark.** "This brand is fun and bright; the image doesn't reflect that." The
+  campaign register had drifted from *dramatic* to *murky*. → Brightness floor added:
+  drama comes from directional light and rich colour, never a dark room.
+- **The lobe overlapped the print** — the focal point. "I now know that an AI designed
+  this and I immediately don't like the design." → Rule 5: no overlay ever sits on the
+  subject, above all faces; if the lobe would touch the subject, the plate is wrong, not
+  the layout.
+- **The CTA read as off-brand.** The glass-white pill didn't feel like a primary button —
+  because it wasn't one. → The glass pill is retired as a CTA; every send's action is a
+  real brand button (red pill on dark grounds, purple on light).
+- **Orientation break.** Landscape print on the wall, portrait full-bleed image inside
+  the phone — "that destroys the illusion that it's the same thing and his phone is in
+  camera mode." Audit found the same break on the web plate. → Rule 6 (orientation lock)
+  added to the photography rules and the CD mechanic gate.
+
+Fix: both studio plates (S and W) reshot from the approved Two Worlds frame — bright airy
+studio, landscape print with a **landscape** phone in camera mode — solving brightness and
+orientation in one move; story CTA switched to the red pill; story scrim moved to plum.
+
+**Fix-round CD QA:** web hero SHIP first pass (after the type block was tightened to clear
+the print's bottom edge — the taller hero flips the cover-crop to the horizontal axis and
+reveals the plate's full quiet band). The CD then flagged the marketing send: the new
+rule-5 gate caught the lobe grazing the grandmother's hair — a break the earlier "on
+brand" reviews had sailed past. Crop slack was exhausted, so per doctrine the *plate* was
+reframed (pair right of centre, upper-left quarter quiet sofa/bokeh, full headroom), not
+the layout. Final round: all three composites SHIP. Watch item: ~10px headline-to-hand
+clearance on marketing — no room for further upward cropping.
 
 ## QA log — mechanic demo film (2026-09-17)
 
