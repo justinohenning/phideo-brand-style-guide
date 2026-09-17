@@ -238,6 +238,12 @@ red keeps its one job (the primary action). In email, the photo-hero marketing t
 the dark story/editorial template in the style guide are the references; soft sends use a
 glass-white pill instead of red.
 
+**Production rule (2026-09-17):** photo-led layouts are never assembled from photos that
+already exist. The pipeline is **goal → wireframe → shoot-to-wireframe → CD QA** — the
+wireframe fixes where type, CTA and lobe live before the shoot, and the photographer
+composes the negative space in camera. Full role briefs, the W1 wireframe and the QA log:
+`production-workflow.md`.
+
 ## 6. Graphic devices
 
 - **Ring & arc** — the `o` icon blown up as a page device: giant ring cropped off the edge

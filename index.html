@@ -129,7 +129,13 @@ section:first-of-type{border-top:0}
 .shot figcaption{position:absolute;left:0;right:0;bottom:0;padding:44px 16px 12px;background:linear-gradient(180deg,rgba(43,10,52,0),rgba(43,10,52,.84));color:rgba(255,255,255,.88);font-size:12.5px;line-height:1.45;letter-spacing:.01em}
 .shot figcaption b{font-family:var(--display);font-weight:700;letter-spacing:.05em;color:#fff;display:block;font-size:13px;margin-bottom:2px}
 @media (max-width:760px){.shot{flex-basis:calc(var(--ar)*120px)}.shot figcaption{padding:34px 12px 9px;font-size:11px}}
-.photo-hero{position:relative;border-radius:28px;overflow:hidden;margin-top:22px;background:#1C0824 url("photography/phideo-photo-06-two-worlds.png") center/cover;min-height:420px;display:flex;flex-direction:column;justify-content:flex-end;align-items:center;text-align:center;padding:120px 32px 46px;box-shadow:var(--shadow)}
+.wf{position:relative;aspect-ratio:600/420;border:1.5px dashed #B79FC4;border-radius:18px;overflow:hidden;background:var(--surface)}
+.wf .z{position:absolute;display:grid;place-items:center;font-family:var(--display);font-weight:500;font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-2);text-align:center;line-height:1.5}
+.wf .za{top:0;left:0;width:32%;height:17%;border-right:1.5px dashed #B79FC4;border-bottom:1.5px dashed #B79FC4;border-bottom-right-radius:16px;background:var(--surface-2)}
+.wf .zb{top:0;left:0;right:0;height:55%;padding-left:20%}
+.wf .zc{bottom:0;left:0;right:0;height:45%;border-top:1.5px dashed #B79FC4;background:linear-gradient(180deg,rgba(43,10,52,.04),rgba(43,10,52,.16))}
+.wf small{display:block;font-family:var(--body);font-size:10.5px;letter-spacing:.02em;text-transform:none;color:var(--ink-3);margin-top:3px}
+.photo-hero{position:relative;border-radius:28px;overflow:hidden;margin-top:22px;background:#0A0709 url("photography/plate-w.png") center/cover;min-height:470px;display:flex;flex-direction:column;justify-content:flex-end;align-items:center;text-align:center;padding:150px 32px 30px;box-shadow:var(--shadow)}
 .photo-hero::before{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(43,10,52,0) 42%,rgba(43,10,52,.84) 100%)}
 .photo-hero .eb,.photo-hero h3,.photo-hero .btn{position:relative;z-index:1}
 .photo-hero .eb{font-family:var(--display);font-weight:400;font-size:12px;letter-spacing:.42em;text-transform:uppercase;color:#E9D5F5}
@@ -192,13 +198,13 @@ section:first-of-type{border-top:0}
 .mail.auto .top svg{height:5cqw;width:auto}
 .mail.auto .rule{height:.7cqw;background:linear-gradient(90deg,var(--purple),var(--red))}
 
-.mail.photo .hd{aspect-ratio:600/420;background:#1C0824 url("photography/phideo-photo-01-the-moment.png") center/cover;justify-content:flex-end;padding-bottom:6cqw}
+.mail.photo .hd{aspect-ratio:600/420;background:#1C0824 url("photography/plate-m.png") center/cover;justify-content:flex-end;padding-bottom:6cqw}
 .mail.photo .hd::before{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(43,10,52,0) 36%,rgba(43,10,52,.86) 100%)}
 .mail.photo .hd .eb,.mail.photo .hd h3,.mail.photo .hd .btn{position:relative;z-index:1}
 .mail.photo .hd h3{font-weight:700;font-size:6.33cqw;letter-spacing:.02em;line-height:1.18;margin-bottom:1.5cqw}
 .mail.photo .hd .btn{margin-top:2.8cqw}
 
-.mail.story .hd{aspect-ratio:600/420;background:#0B0710 url("photography/phideo-photo-06-two-worlds.png") center/cover;justify-content:flex-end;padding-bottom:6cqw}
+.mail.story .hd{aspect-ratio:600/420;background:#0B0710 url("photography/plate-s.png") center/cover;justify-content:flex-end;padding-bottom:6cqw}
 .mail.story .hd::before{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(8,5,12,0) 44%,rgba(8,5,12,.78) 100%)}
 .mail.story .hd .eb,.mail.story .hd h3,.mail.story .hd .btn{position:relative;z-index:1}
 .mail.story .hd .eb{color:#D9A9F0;margin-bottom:2cqw}
@@ -644,8 +650,16 @@ footer{margin-top:40px;font-size:13px;color:var(--ink-3)}
     <div class="card"><h4>4 · Containers do the branding</h4><p>Photos live inside brand geometry: 18–28px rounded corners or the squircle window, the lobe carrying the logo in the top-left, the scrim carrying the type. The photo stays honest; the brand rides on the frame around it.</p></div>
   </div>
 
-  <h3 style="margin-top:34px">Photo as the hero</h3>
-  <p class="cap" style="margin:6px 0 0">The same hero anatomy as the gradient version — lobe top-left, centred content — with the gradient swapped for a photograph and the plum scrim underneath the type. The eyebrow goes lavender, the headline stays white, and red keeps its one job: the primary action.</p>
+  <h3 style="margin-top:34px">Photo as the hero — wireframe first, then the shoot</h3>
+  <p class="cap" style="margin:6px 0 14px">A photo-led layout is never assembled from a photo that already exists. The pipeline runs <b>goal → wireframe → shoot → CD&nbsp;QA</b> (see <code>production-workflow.md</code>): the wireframe fixes where the type, CTA and lobe live <em>before</em> the shoot, and the photographer composes the negative space in camera where the type will sit. The scrim is for legibility — never for burying detail that shouldn’t be under type in the first place.</p>
+  <div class="grid g2" style="align-items:center">
+    <div class="wf" aria-label="Wireframe: lobe zone top-left, subject zone top 55%, type and CTA zone bottom 45%">
+      <div class="z za">A · lobe</div>
+      <div class="z zb">Zone B · subject<small>faces · print · the screen (brightest point, whole)</small></div>
+      <div class="z zc">Zone C · type + CTA on the scrim<small>quiet negative space, composed in camera — no faces, hands, prints or screen</small></div>
+    </div>
+    <div class="cap" style="margin:0">The standard photo-hero wireframe (<b>W1</b>). Zone A is covered by the lobe — nothing important lives under it. Zone B holds the story; the phone screen sits whole inside it. Zone C carries the copy, so the photograph must offer low-detail dark space there: a blanket, a table edge, a wall falling to shadow. Nothing critical within 8% of any edge. Same anatomy as the gradient hero — lobe top-left, centred content — with the eyebrow in lavender, the headline white, and red keeping its one job: the primary action.</div>
+  </div>
   <div class="photo-hero">
     <div class="lobe"><svg viewBox="36 196 461 120" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><use href="#logo2t"/></svg></div>
     <div class="eb">The living side</div>
