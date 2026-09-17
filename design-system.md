@@ -140,7 +140,7 @@ designed scale, override.
   bevels, colour swaps, purple logo on grey, red logo on purple, any logo on a busy photo
   without a scrim. On gradients: white only.
 - **Placement:** print — upper-left or lower-left. Web/email — top-left inside a white lobe
-  ("Logo holder": white rounded tab that cuts into the hero gradient, 600×92 in email,
+  ("Logo holder": the lobe — see §6 for the cut-in construction — 600×92 in email,
   ~240×92 lobe in web nav).
 - **Favicon / app icon:** the ring-and-play `o` alone; social profile pictures use the white
   wordmark on the brand gradient or on flat purple/red.
@@ -174,8 +174,12 @@ staring at nothing, AI faces with obvious artefacts, purple/red duotones over fa
 
 - **Ring & arc** — the `o` icon blown up as a page device: giant ring cropped off the edge
   (letterhead watermark at ~10% tint, presentation folder, envelope, social template corner).
-- **Lobe / tab** — white rounded tab that carries the logo and bites into a gradient hero
-  (web nav, every email header). Radius ≈ 24–32px.
+- **Lobe / tab** — tab in the *surrounding background colour* that carries the logo and cuts
+  into a gradient hero (web nav, every email header). Outer corner is a pill radius; the two
+  joins where the tab meets the hero edges curve **inward** (concave fillets), so it reads as
+  the background cutting into the hero rather than a 90° notch. The logo inside must stay
+  legible — it is a word that needs to be read — but the lobe supports the content: the hero
+  is always the point of the graphic, not the logo.
 - ~~**Wave**~~ — *retired 2026-09-17.* The red/white/purple sweeping curve that closed heroes
   (mailer hero bottom, social posts) is no longer part of the system — remove it from any
   design that still carries it.
