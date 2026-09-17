@@ -104,6 +104,8 @@ section:first-of-type{border-top:0}
 .omark-tile svg{width:54px;height:55px;position:relative}
 .omark-tile img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
 .omark-tile.media svg{filter:drop-shadow(0 4px 14px rgba(20,5,25,.5))}
+.omark-tile .badge{width:78px;height:78px;border-radius:50%;background:radial-gradient(circle at 50% 32%,rgba(70,30,80,.92),rgba(22,6,28,.94));border:3px solid rgba(255,255,255,.8);display:grid;place-items:center;box-shadow:0 6px 16px rgba(20,5,25,.35)}
+.omark-tile .badge svg{width:38px;height:39px;color:#C9B6D4}
 .logo-tile svg{width:74%;max-width:340px;height:auto}
 .logo-tile.on-white{background:#fff}.logo-tile.on-purple{background:var(--purple)}.logo-tile.on-red{background:var(--red)}.logo-tile.on-grad{background:linear-gradient(135deg,var(--purple),var(--red))}.logo-tile.on-black{background:#111}
 .cap{font-size:12px;color:var(--ink-3);margin-top:6px}
@@ -597,6 +599,18 @@ footer{margin-top:40px;font-size:13px;color:var(--ink-3)}
     <div><div class="omark-tile" style="background:var(--surface-2)"><svg viewBox="364.8 196.2 116.2 117.7" style="color:var(--purple)" aria-hidden="true"><use href="#omark-mono"/></svg></div><p class="cap" style="margin-top:8px"><b>Single colour</b> — purple (or black) for one-colour print, engraving, embossing. Also the fallback below ~24px, where the two-colour split stops reading.</p></div>
   </div>
   <p class="cap" style="margin-top:12px">Construction never changes: ring open at the top-right, arc closing it, triangle pointing right — all three pieces recolour together, never independently. Minimum size 16px; from 16–24px use monotone. The o alone doesn’t carry the ® — that belongs to the full logo.</p>
+
+  <h3 style="margin-top:34px">Icon usage — the play mark in practice</h3>
+  <p><b>The o’s own ring is the button.</b> It is never wrapped in a disc, circle, pill, badge or second ring — double-ringing muddies the mark and makes it read as a generic player control. Wherever something plays, the bare o sits directly on the media or gradient, monotone white, with nothing drawn around it.</p>
+  <div class="omark-row" style="grid-template-columns:repeat(2,1fr)">
+    <div><div class="omark-tile" style="background:linear-gradient(150deg,#CC9CFE,#B200ED 55%,#702283)"><svg viewBox="364.8 196.2 116.2 117.7" style="color:#fff;filter:drop-shadow(0 4px 14px rgba(20,5,25,.4))" aria-hidden="true"><use href="#omark-mono"/></svg></div><p class="cap" style="margin-top:8px"><b>✓ Do</b> — the bare o, monotone white, straight on the media or gradient. A soft shadow (~20–40%) is the only separation allowed.</p></div>
+    <div><div class="omark-tile" style="background:linear-gradient(150deg,#CC9CFE,#B200ED 55%,#702283)"><div class="badge"><svg viewBox="364.8 196.2 116.2 117.7" aria-hidden="true"><use href="#omark-mono"/></svg></div></div><p class="cap" style="margin-top:8px"><b>✗ Don’t</b> — no containing disc, no outer ring, no glass badge, and never a tinted or greyed o. The extra circle competes with the o’s own ring and kills the mark.</p></div>
+  </div>
+  <ul style="margin-top:14px;color:var(--ink-2);font-size:14.5px;padding-left:20px">
+    <li><b>Hit area ≠ glyph</b> — grow the touch target invisibly (≥44px); the drawn icon stays bare.</li>
+    <li><b>Colour</b> — white over media, gradients and dark UI; full colour only on white/light neutrals; single-colour purple/black for one-colour print (see the mark rules above).</li>
+    <li><b>Everything else</b> — icons that aren’t play affordances follow the icon families: print = thin white line icons in flat red/purple/gradient circles; web = glossy violet glyphs. The circle treatment belongs to <em>those</em> icons — never to the o.</li>
+  </ul>
 </section>
 
 <!-- IMAGERY -->

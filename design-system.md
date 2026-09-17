@@ -182,6 +182,23 @@ all three pieces recolour together, never independently — and never violet. Mi
 16px; from 16–24px use monotone (the two-colour split stops reading). The o alone doesn't
 carry the ®; that belongs to the full logo.
 
+### Icon usage (added 2026-09-17)
+
+**The o's own ring is the button.** The play mark is never wrapped in a disc, circle,
+pill, badge or second ring — double-ringing muddies the mark and makes it read as a
+generic player control. Wherever something plays, the bare o sits directly on the media
+or gradient, monotone white, nothing drawn around it.
+
+- **Do:** bare o, monotone white, straight on the media/gradient; a soft drop shadow
+  (~20–40% opacity) is the only separation allowed.
+- **Don't:** no containing disc, no outer ring, no glass badge, no tinted or greyed o.
+- **Hit area ≠ glyph:** grow the touch target invisibly (≥44px); the drawn icon stays bare.
+- **Colour:** white over media, gradients and dark UI; full colour only on white/light
+  neutrals; single-colour purple/black for one-colour print (see "The o as the mark").
+- **Everything else:** icons that aren't play affordances follow the icon families —
+  print: thin white line icons in flat red/purple/gradient circles; web: glossy violet
+  glyphs. The circle treatment belongs to *those* icons, never to the o.
+
 ## 5. Imagery — the AR language
 
 The manual sets four photography modes; the website adds a fifth. Every image should let a
