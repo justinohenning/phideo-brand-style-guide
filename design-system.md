@@ -111,16 +111,23 @@ Poppins SemiBold takes headings on web only and Amenti stays print/social.
 ### Proposed web scale (Amenti + Poppins, desktop → mobile)
 | role | face | size / line | notes |
 |---|---|---|---|
-| Display | Amenti Black | 64/72 → 40/46 | hero only; -0.01em |
-| H1 | Amenti Black | 48/56 → 34/40 | |
-| H2 | Amenti Bold | 40/48 → 30/36 | "Endless Possibilities" is this, in purple |
-| H3 | Amenti Bold | 28/36 → 24/30 | feature titles (violet on web) |
-| H4 | Amenti Medium | 22/30 | card titles |
+| Display | Amenti Black | 64/72 → 40/46 | hero only; +0.02em |
+| H1 | Amenti Black | 48/56 → 34/40 | +0.02em |
+| H2 | Amenti Bold | 40/48 → 30/36 | +0.03em; "Endless Possibilities" is this, in purple |
+| H3 | Amenti Bold | 28/36 → 24/30 | +0.03em; feature titles (violet on web) |
+| H4 | Amenti Medium | 22/30 | +0.03em; card titles |
 | Body | Poppins Regular | 18/28 → 16/26 | purple ink on light, white on dark |
 | Small | Poppins Regular | 14/20 | captions, legal, footer |
 | Eyebrow | Amenti Regular | 14, uppercase, +0.4em | red on light, white on dark |
 | Tagline lockup | Amenti Medium | 20, +0.25em | "Scan.  Watch.  Experience." — extra word-spacing |
 | Button | Poppins SemiBold | 16 | |
+
+**Tracking rule (set 2026-09-17):** Amenti never runs tight or default — it always gets
+positive letter-spacing, graded by size: **+0.02em** at Display/H1, **+0.03em** at H2–H4,
+**+0.04em** on small Amenti labels (weight names, swatch labels, card names). The alphabet
+specimen runs at +0.08em with 0.6em word gaps as the reference for the open feel. Eyebrows
+(+0.42em) and the tagline lockup (+0.25em) keep their existing wide tracking. Poppins body
+runs at its default spacing.
 
 Live site today: Breakdance globals h1 32px, h2 25px, body 14px, base 16, ratio 1.25 — not a
 designed scale, override.
