@@ -148,7 +148,18 @@ Final plates live in `photography/plate-{m,s,w}.png`; composites in the style gu
   a "frozen background" brief needs a locked camera.
 - **Take 2 (Kling 3.0, locked camera, hard freeze language):** better — gallery rock
   solid — but the painting's waves still drifted subtly. FAIL.
-- **Take 3 (Seedance 2.5, same locked-camera brief):** SHIP — painting pixel-stable
-  across the full 8s, all motion inside the phone screen. Lesson on file: for
-  selective-motion shots ("only X moves"), Seedance holds the frozen regions; Kling
-  wants to animate everything it sees.
+- **Take 3 (Seedance 2.5, same locked-camera brief):** shipped, then pulled after client
+  review — painting pixel-stable, but the static hand read as "a guy watching a clip that
+  looks like the painting", not AR. Lesson: freezing the world isn't enough; the phone
+  must *prove* it's a live camera.
+- **Take 4 (new start frame — camera mode):** start frame regenerated so the painting's
+  gilded frame is visible *inside* the phone screen (live viewfinder, not full-bleed
+  playback). Painting frozen, camera-mode read strong — but the prompted pan didn't
+  happen; the hand barely moved. FIX.
+- **Take 5 (explicit trajectory):** SHIP — pan brief rewritten as start position → end
+  position ("hand starts in front of the LEFT side… glides to the RIGHT side, travelling
+  the width of the painting"), 10s. The arm visibly travels and the on-screen view tracks
+  it like a viewfinder — the ship slides into the screen as the phone reaches it — while
+  the wall painting stays frozen. Lessons on file: (a) the mechanic's motion cues (frame
+  inside the screen + a moving hand) are what sell "camera, not playback"; (b) video
+  models ignore vague motion verbs — write trajectories as explicit start/end positions.

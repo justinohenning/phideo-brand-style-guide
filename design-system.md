@@ -220,6 +220,13 @@ must depict this correctly:
   motion light — and brighter/more saturated than the still print beside it. The print
   itself must read as frozen. Full-bleed footage, no app chrome. Never unrelated footage
   on the screen.
+- **Selling it in motion (video/film):** the phone reads as a **live camera, not a video
+  player**. Two cues do the selling: (1) the print's *frame* (and a sliver of its
+  surroundings) is visible *inside* the screen — the viewer sees the phone is pointed at
+  the wall, not playing a file; (2) the hand **moves** — a slow pan across the print with
+  the on-screen view tracking like a viewfinder, new parts of the living image sliding
+  into view. A static hand kills the illusion: it reads as someone watching a clip that
+  merely resembles the print.
 
 Reference film: `photography/phideo-mechanic-demo.mp4` — first-person museum demo, the
 painting still on the wall, alive inside the phone.
