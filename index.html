@@ -661,12 +661,12 @@ footer{margin-top:40px;font-size:13px;color:var(--ink-3)}
 
 <!-- DECISIONS -->
 <section>
-  <p class="eyebrow">Open decisions</p>
+  <p class="eyebrow">Decisions</p>
   <h2>Where the sources disagree</h2>
   <p class="lede">Full evidence in <code>clients/phideo/discrepancies.md</code>. Each item shows the recommendation; the call is Franco’s.</p>
   <div style="margin-top:14px">
-    <div class="dec"><div class="n">1–2</div><div><h4>Purple and red each exist in three values</h4><p>Spec #702283 / #E52329 · manual’s own render #6F2B90 / #EE2F35 · logo SVGs #722C8F / #EC1B25.</p><span class="rec">Use the spec values everywhere; re-export the logo files to match.</span></div></div>
-    <div class="dec"><div class="n">3</div><div><h4>CMYK on the hub is auto-derived</h4><p>Manual: C70 M100 Y0 K0 / C0 M95 Y85 K0. Hub: 15,74,0,49 / 0,85,82,10 — 49% black would print muddy.</p><span class="rec">Manual values for print; fix or remove the hub cards.</span></div></div>
+    <div class="dec"><div class="n">1–2</div><div><h4>Purple and red each exist in three values</h4><p>Spec #702283 / #E52329 · manual’s own render #6F2B90 / #EE2F35 · logo SVGs #722C8F / #EC1B25.</p><span class="rec">✅ Settled 17 Sep 2026 — the Brand Manual V2 spec is the source of truth: <strong>#702283 / #E52329</strong>. Corrected logo SVG/PNG variants are in <code>logo/</code>; upload them to the asset hub.</span></div></div>
+    <div class="dec"><div class="n">3</div><div><h4>CMYK on the hub is auto-derived</h4><p>Manual: C70 M100 Y0 K0 / C0 M95 Y85 K0. Hub: 15,74,0,49 / 0,85,82,10 — 49% black would print muddy.</p><span class="rec">✅ Settled 17 Sep 2026 — follows #1–2: the manual’s CMYK for anything printed. Hub cards still need correcting.</span></div></div>
     <div class="dec"><div class="n">4</div><div><h4>The web violet family isn’t in the manual</h4><p>#B200ED, #BE38EA, #DC2875 and the lavender haze run through every website screen and the live CSS; the manual says “no secondary palette”.</p><span class="rec">Formalise as digital-only “AR glow”; keep it off print and the logo.</span></div></div>
     <div class="dec"><div class="n">5</div><div><h4>Five typographic answers</h4><p>Manual Amenti + Aller · hub Amenti only · mailer Amenti + Inter · website and live site Poppins (plus Montserrat, Oxanium) · social adds a serif.</p><span class="rec">Amenti headings + Poppins body; confirm the Envato licence for web.</span></div></div>
     <div class="dec"><div class="n">6–7</div><div><h4>Three type scales and mismatched weight names</h4><p>Manual 60/42/30/20/10/8, hub 72/35/22/18/12/8, live site Breakdance defaults. Manual names SemiBold/ExtraBold that don’t exist as files.</p><span class="rec">Adopt the web scale above; use file names (Black, not ExtraBold).</span></div></div>

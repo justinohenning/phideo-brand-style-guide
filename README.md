@@ -16,8 +16,10 @@ Compiled by Lunchbox, 15 September 2026, from every brand source in circulation:
 |---|---|
 | [`index.html`](index.html) | The visual style guide — open it in a browser. Self-contained (Amenti embedded, Poppins from Google Fonts). Same content as the hosted version. |
 | [`design-system.md`](design-system.md) | The system in text: brand core, colour, typography, logo, imagery language, graphic devices, components (web / email / app / print), motion, voice. |
-| [`discrepancies.md`](discrepancies.md) | **Read first if you're deciding anything.** Every place the sources disagree — colour values, CMYK, typefaces, type scale, the ®, contact details, gradients — with evidence and a recommendation. The decision column is open. |
+| [`discrepancies.md`](discrepancies.md) | **Read first if you're deciding anything.** Every place the sources disagree — colour values, CMYK, typefaces, type scale, the ®, contact details, gradients — with evidence and a recommendation. Settled so far: #1–3 (Brand Manual V2 is the source of truth for the primaries). |
 | [`logo/phideo-logo-color-spec.svg`](logo/phideo-logo-color-spec.svg) | The 2-tone logo re-coloured to the spec values `#702283` / `#E52329`. |
+| `logo/phideo-logo-{purple,red,black,white}-spec.svg` | The four single-colour variants, generated from the spec file — ready to replace the hub set. |
+| `logo/phideo-logo-*-spec.png` | 1024×1024 transparent PNG exports of all five variants (rendered with Chrome, so the ® mask is correct). |
 | [`logo/phideo-logo-color-hub-original.svg`](logo/phideo-logo-color-hub-original.svg) | The same file as it sits on the asset hub today (`#722C8F` / `#EC1B25`) — kept for comparison, see discrepancy #1. |
 
 ## The short version

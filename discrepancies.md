@@ -30,7 +30,7 @@
 - Logo SVGs on the hub (`Logo_Final-color.svg`): **#722C8F**.
 - Figma Mailer variable "Deep Plumb": #702283. Live site `--bde-palette-title`: #702283. Website Figma "Endless Possibilities" heading: #702283.
 - **Recommend:** #702283 everywhere. Re-export the five logo SVG/PNGs with #702283 / #E52329 fills so the logo and the UI stop being ~1 step apart on the same page. Low risk — the drift is barely visible, but a design system with two purples is not a system.
-- **Decision (2026-09-17):** the Brand Manual V2 spec is the source of truth → **#702283**. Follow-up: re-export the logo files (see recommendation).
+- **Decision (2026-09-17):** the Brand Manual V2 spec is the source of truth → **#702283**. Corrected logo variants (SVG + 1024px PNG, all five: color/purple/red/black/white) are in [`logo/`](logo/) — still to do: upload them to the asset hub in place of the drifted set.
 
 ### 2 · Red — same story
 - Manual spec: **#E52329**. Manual render: **#EE2F35** (and #ED1C26 on the cover logo). Logo SVGs: **#EC1B25**. Figma var / live site: #E52329.
