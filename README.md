@@ -21,6 +21,7 @@ Compiled by Lunchbox, 15 September 2026, from every brand source in circulation:
 | `logo/phideo-logo-{purple,red,black,white}-spec.svg` | The four single-colour variants, generated from the spec file — ready to replace the hub set. |
 | `logo/phideo-logo-*-spec.png` | 1024×1024 transparent PNG exports of all five variants (rendered with Chrome, so the ® mask is correct). |
 | [`logo/phideo-logo-color-hub-original.svg`](logo/phideo-logo-color-hub-original.svg) | The same file as it sits on the asset hub today (`#722C8F` / `#EC1B25`) — kept for comparison, see discrepancy #1. |
+| `photography/phideo-photo-0{1..6}-*.png` | The reference photoshoot (Higgsfield Soul 2.0 / Soul Cinema, 2K): six directed shots covering the everyday and campaign registers — see the Photography section of the guide for the shot notes and the photo-treatment rules. |
 
 ## The short version
 

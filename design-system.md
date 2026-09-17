@@ -186,6 +186,37 @@ Do: real hands, real prints, warm skin, natural light; the screen brighter than 
 around it. Don't: phones with black/empty screens (except as a mockup base), stock people
 staring at nothing, AI faces with obvious artefacts, purple/red duotones over faces.
 
+### Photography direction (added 2026-09-17)
+
+Reference shoot in `photography/` (six shots, Higgsfield Soul 2.0 / Soul Cinema, 2K).
+Every shot is directed like a sentence — one message, one composition, one light, one honest
+expression — and brand colour enters as **objects and light inside the scene** (plum ribbon,
+red pencil, plum mug, red raincoat, violet screen glow), never as a filter in post.
+
+Two registers: **everyday** (warm, window-lit: The Moment, Demonstrate, The Gift) and
+**campaign** (low-light, the screen carries the colour: Looking, The Wall, Two Worlds).
+The darker the scene, the more the screen becomes the light source.
+
+Rules for photos in layouts:
+
+1. **The plum scrim** — type never sits raw on a photograph. Gradient from transparent to
+   `rgba(43,10,52,.84)` (near-black plum, not grey) rising from the edge that carries the
+   type, covering the bottom ~55–65%. Type on it is always white. On very dark photos a
+   neutral near-black scrim at lower opacity is enough.
+2. **The screen is sacred** — scrims, washes and logos never dim the phone screen; it stays
+   the brightest, most saturated element. Anchor the scrim away from the screen.
+3. **Accents in-scene, not in post** — no duotones, no colour overlays on faces, no
+   recolouring. Plant the brand colour at the shoot.
+4. **Containers do the branding** — photos live inside brand geometry: 18–28px radii or the
+   squircle window, the lobe carrying the logo top-left, the scrim carrying the type.
+
+**Photo as the hero:** same anatomy as the gradient hero — lobe top-left, content centred
+horizontally — but the content drops to the bottom edge onto the scrim (the photo is the
+content; don't float type mid-image). Eyebrow goes lavender `#E9D5F5`, headline white,
+red keeps its one job (the primary action). In email, the photo-hero marketing template and
+the dark story/editorial template in the style guide are the references; soft sends use a
+glass-white pill instead of red.
+
 ## 6. Graphic devices
 
 - **Ring & arc** — the `o` icon blown up as a page device: giant ring cropped off the edge
@@ -252,6 +283,12 @@ staring at nothing, AI faces with obvious artefacts, purple/red duotones over fa
     learning, not selling.
   - *Automated / transactional* — quietest: no hero; small centred 2-tone logo, a thin
     purple→red gradient rule, utility type, muted reassurance line, purple button.
+- **Photo heroes (2026-09-17):** either the marketing or story volume can swap the gradient
+  for a photograph (hero 600×420). Content stays centred horizontally but drops to the
+  bottom edge onto the plum scrim (§5 photography rules 1–2: type on the scrim, the phone
+  screen never dimmed). Warm everyday photo → marketing send with the red CTA on the darkest
+  plum; dark campaign photo → story/editorial send with a lavender eyebrow and a glass-white
+  pill (no red — red would promote it to marketing).
 - Header: white lobe with logo (600×92) → hero: saturated purple→plum gradient, white
   Amenti Regular headline with wide tracking, white outline pill sub-line ("Keep
   memories alive", "Join Phideo to accept"), phone-window photo right. (The red/white wave
