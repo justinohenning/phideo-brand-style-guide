@@ -137,17 +137,19 @@ section:first-of-type{border-top:0}
 .feature .ic{width:64px;height:64px;border-radius:18px;background:linear-gradient(145deg,#CC9CFE,#B200ED);box-shadow:0 8px 20px rgba(178,0,237,.35);display:grid;place-items:center}
 .feature .ic svg{width:34px;height:34px}
 .feature h3{color:var(--violet);font-size:20px}
-.mail{max-width:420px;border-radius:18px;overflow:hidden;border:1px solid var(--line);background:var(--surface);font-size:13px}
-.mail .hd{position:relative;background:linear-gradient(135deg,var(--purple),#8E1C6A 70%,var(--red));color:#fff;padding:64px 22px 54px;overflow:hidden}
-.mail .hd .lobe{position:absolute;top:0;left:0;background:var(--surface);padding:13px 26px 11px 18px;border-bottom-right-radius:32px}
-.mail .hd .lobe svg{height:24px;width:auto;display:block}
-.mail .hd .lobe::before,.mail .hd .lobe::after{content:"";position:absolute;width:16px;height:16px;background:radial-gradient(circle at 100% 100%,transparent 15.5px,var(--surface) 16px)}
+/* email mockup: designed at 600px spec, rendered as a proportional thumbnail (1cqw = 6px at spec) */
+.mail{max-width:420px;border-radius:18px;overflow:hidden;border:1px solid var(--line);background:var(--surface);container-type:inline-size}
+.mail .hd{position:relative;background:linear-gradient(135deg,var(--purple),#8E1C6A 70%,var(--red));color:#fff;aspect-ratio:600/363;box-sizing:border-box;display:flex;flex-direction:column;justify-content:center;align-items:flex-start;padding:16cqw 6.67cqw 6cqw;overflow:hidden}
+.mail .hd .lobe{position:absolute;top:0;left:0;background:var(--surface);padding:4.33cqw 7.33cqw 3.67cqw 5cqw;border-bottom-right-radius:9.33cqw}
+.mail .hd .lobe svg{height:6.67cqw;width:auto;display:block}
+.mail .hd .lobe::before,.mail .hd .lobe::after{content:"";position:absolute;width:5.33cqw;height:5.33cqw;background:radial-gradient(circle at 100% 100%,transparent calc(5.33cqw - .5px),var(--surface) 5.33cqw)}
 .mail .hd .lobe::after{left:100%;top:0}
 .mail .hd .lobe::before{top:100%;left:0}
-.mail .hd h3{color:#fff;font-weight:400;letter-spacing:.06em;font-size:24px;margin-bottom:10px}
-.mail .hd .pill-tag{font-size:13px;padding:9px 18px;letter-spacing:.06em;word-spacing:normal;font-weight:400;background:transparent}
-.mail .bd{padding:18px 22px;text-align:center;color:var(--ink-2)}
-.mail .bd h4{font-weight:400;font-size:20px;margin-bottom:8px}
+.mail .hd h3{color:#fff;font-weight:400;letter-spacing:.06em;font-size:5.67cqw;margin-bottom:2.5cqw}
+.mail .hd .pill-tag{font-size:2.67cqw;padding:2cqw 4.33cqw;letter-spacing:.06em;word-spacing:normal;font-weight:400;background:transparent;margin-top:1.5cqw}
+.mail .bd{padding:5.33cqw 6.67cqw;text-align:center;color:var(--ink-2);font-size:2.5cqw}
+.mail .bd h4{font-weight:400;font-size:4cqw;margin-bottom:2cqw}
+.mail .bd .btn{font-size:2.33cqw;padding:2.2cqw 4.7cqw}
 .mail .sig{color:var(--red);font-weight:600}
 /* decisions */
 .dec{display:grid;grid-template-columns:44px 1fr;gap:14px;padding:16px 0;border-top:1px solid var(--line);align-items:start}
@@ -634,9 +636,9 @@ footer{margin-top:40px;font-size:13px;color:var(--ink-3)}
       </div>
       <div class="bd">
         <h4>Exciting News!</h4>
-        <p style="margin:0 auto 12px"><b style="color:var(--heading)">[FirstName] [LastName]</b> has invited you to Phideo.</p>
-        <button class="btn primary" type="button" style="font-size:13px;padding:11px 20px">Accept Invitation</button>
-        <p style="margin:16px auto 0">Warmly,<br><span class="sig">The Phideo Team</span></p>
+        <p style="margin:0 auto 2cqw"><b style="color:var(--heading)">[FirstName] [LastName]</b> has invited you to Phideo.</p>
+        <button class="btn primary" type="button">Accept Invitation</button>
+        <p style="margin:2.67cqw auto 0">Warmly,<br><span class="sig">The Phideo Team</span></p>
       </div>
     </div>
     <div class="card">
