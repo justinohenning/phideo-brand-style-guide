@@ -3,9 +3,9 @@
 Consolidated brand system for **Phideo** (phideo.io) — the AR app that attaches a video to a
 printed photo. Point a phone at the print and the video plays over it. *phideo = photo + video.*
 
-Compiled by Lunchbox, 15 September 2026, from every brand source in circulation:
+Developed by **Lunchbox Agency**, 15 September 2026, from every brand source in circulation:
 
-- **Brand Manual V2** (G.O.A.T Consulting Group, 2023)
+- **Brand Manual V2** (2023)
 - the **asset hub** (assets.lunchbox.agency/brand/phideo — logos, fonts, social, photography, app, video)
 - Figma **"Phideo Website"** and **"Phideo | Mailer Designs"**
 - the **live site** (phideo.io — WordPress + Oxygen 6)
