@@ -31,43 +31,42 @@ art direction. Every later role is measured against this paragraph.
 
 ### 2 · Designer — the wireframe
 
-The wireframe fixes **where things live** before the photo exists:
-
-- **Zone A — lobe** (logo tab): top-left. The image will be covered there; nothing
-  important may live under it.
-- **Zone B — subject**: where the story happens (faces, the phone screen, the print).
-  The screen is the single brightest point and must sit whole inside Zone B.
-- **Zone C — type + CTA**: where the copy and button sit, on the plum scrim. The photo
-  must offer **low-detail, low-contrast negative space** here — floor, table, blanket,
-  wall, shadow, out-of-focus foreground. No faces, no hands, no prints, no screen.
-- Margins: nothing critical within 8% of any edge (crop tolerance across placements).
-
-#### W1 — photo hero (web + email), the standard wireframe
+A photo hero is **a layered stack, not segments**. The photograph runs full bleed under
+everything; the other layers sit on top of it. The photo is never sliced into bands:
 
 ```
-+—————————————————————————————————————+
-| [A lobe]                            |
-|                                     |
-|            ZONE B  (top ~55%)       |
-|      subject · faces · screen       |
-|                                     |
-|-------------------------------------|
-|            ZONE C  (bottom ~45%)    |
-|     quiet negative space + scrim    |
-|       eyebrow / headline / CTA      |
-|          (centre-aligned)           |
-+—————————————————————————————————————+
+LAYER 4   lobe (logo tab)        floats top-left over the image
+LAYER 3   type + CTA             the only fixed footprint (W1: bottom ~45%, centred)
+LAYER 2   scrim                  gradient for legibility under layer 3
+LAYER 1   the photograph         full bleed — shot wider than instinct
 ```
+
+The wireframe fixes the **footprints of the overlay layers** (lobe top-left; type + CTA
+per the layout — W1 puts it on the bottom ~45%, centre-aligned) plus the margins rule:
+nothing critical within 8% of any edge (crop tolerance across placements).
+
+Its real product is **composition knowledge for the photographer**. Knowing where the
+copy layer will land, the photographer:
+
+- places the **point of interest away from the copy footprint** — copy below → subject
+  framed higher; copy left → subject framed right; and so on for any axis;
+- **shoots a little wider** than instinct, so the layout has reframing room and the
+  subject keeps its clearance across placements and crops;
+- composes the copy footprint as **naturally quiet image** — floor, table, blanket, wall,
+  a fall to shadow, out-of-focus foreground — in camera. No faces, hands, prints or
+  screen there. The scrim is for legibility, never for burying detail;
+- keeps the phone screen the single brightest point, whole, clear of the copy footprint.
 
 Formats: email hero 600×420 (shoot 3:2, minimal crop) · web hero ~21:9 (shoot 21:9).
 
 ### 3 · Photographer — shoot to the wireframe
 
 The shot brief = the photoshoot direction (message, composition, lighting, expression,
-environment, in-scene brand accent — design-system §5) **plus the wireframe zones as
-hard constraints**. Compose the negative space in camera: a foreground surface, a fall
-to shadow, an empty wall. Do not plan to "fix it with the scrim" — the scrim is for
-legibility, not for burying detail.
+environment, in-scene brand accent — design-system §5) **plus the wireframe's layer
+footprints as composition knowledge**. Frame the point of interest away from where the
+copy layer will sit, shoot wider than the final crop needs, and compose the quiet space
+in camera: a foreground surface, a fall to shadow, an empty wall. Do not plan to "fix it
+with the scrim" — the scrim is for legibility, not for burying detail.
 
 **The mechanic is canon** (design-system §5, "The mechanic"): whenever a print and a
 screen share the frame, the screen shows the *same* image as the print — a slightly
@@ -96,9 +95,9 @@ Verdict: **ship / fix (specific notes) / reshoot**. Two failed fixes = reshoot.
 ### Plate M — marketing email hero ("The Moment II")
 - **Goal:** a warm jolt of recognition — "my family's photos could do this" — that earns
   one tap on *Bring One to Life*. Everyday register.
-- **Wireframe:** W1 at 600×420. Zone B: grandmother + granddaughter + glowing screen,
-  upper 55%. Zone C: the plum throw blanket and sofa sweeping the bottom 45%,
-  out of focus.
+- **Wireframe:** W1 at 600×420. Copy footprint bottom 45% → point of interest
+  (grandmother + granddaughter + glowing screen) framed in the upper half; the plum throw
+  blanket and sofa sweep the bottom of frame, out of focus. Shot wider than the crop.
 - **Shot brief:** golden-hour living room, camera at chest height so the sofa back and
   blanket fill the foreground; faces and phone in the upper half; 50mm f/2; plum blanket
   as the in-scene accent. 3:2.
@@ -106,16 +105,18 @@ Verdict: **ship / fix (specific notes) / reshoot**. Two failed fixes = reshoot.
 ### Plate S — story email hero ("Two Worlds II")
 - **Goal:** editorial gravity — "there's more to this product than a gimmick" — that earns
   a *Read the Story* click. Campaign register.
-- **Wireframe:** W1 at 600×420. Zone B: the B&W print + phone with the living sunset,
-  upper 55–60%. Zone C: the charcoal studio wall falling to black, bottom 40–45%.
+- **Wireframe:** W1 at 600×420. Copy footprint bottom 40–45% → point of interest (the
+  B&W print + phone with the living sunset) framed in the upper 55–60%; the charcoal
+  studio wall falls to black beneath it. Shot wider than the crop.
 - **Shot brief:** single spotlight from above so the light pools on the print and dies
   before the bottom of frame; phone screen upper-right; 3:2.
 
 ### Plate W — web photo hero ("The living side")
 - **Goal:** instant comprehension of the product promise over a full-width hero, with a
   centred red CTA. Campaign register.
-- **Wireframe:** W1 at ~21:9. Zone B: print + phone upper 55%, right of centre balanced
-  by the lobe top-left. Zone C: empty dark wall/table across the full bottom width.
+- **Wireframe:** W1 at ~21:9. Copy footprint bottom 45%, centred → point of interest
+  (print + phone) framed in the upper half, right of centre to balance the lobe top-left;
+  empty dark wall/table runs the full bottom width. Shot wider than the crop.
 - **Shot brief:** the Two Worlds studio concept recomposed for 21:9: print and hand-held
   phone raised into the upper half, spotlight tight, bottom half of frame near-black
   empty space. 21:9.

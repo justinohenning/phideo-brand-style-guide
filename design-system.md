@@ -286,10 +286,13 @@ the dark story/editorial template in the style guide are the references; soft se
 glass-white pill instead of red.
 
 **Production rule (2026-09-17):** photo-led layouts are never assembled from photos that
-already exist. The pipeline is **goal → wireframe → shoot-to-wireframe → CD QA** — the
-wireframe fixes where type, CTA and lobe live before the shoot, and the photographer
-composes the negative space in camera. Full role briefs, the W1 wireframe and the QA log:
-`production-workflow.md`.
+already exist. The pipeline is **goal → wireframe → shoot-to-wireframe → CD QA**. The
+hero is built as **layers** (photo full bleed → scrim → type + CTA → lobe), never as
+segments; the wireframe fixes the overlay layers' footprints, and the photographer uses
+that as composition knowledge — point of interest framed away from the copy footprint
+(copy below → subject high; copy left → subject right), always **shot a little wider**
+than the final crop, with the quiet space composed in camera. Full role briefs, the W1
+layer stack and the QA log: `production-workflow.md`.
 
 ## 6. Graphic devices
 
