@@ -24,9 +24,10 @@
 
 ## 2. Colour
 
-Two primaries, no formal secondary (manual: "we do not have a secondary palette… where
-possible the primary colours should be"). Red is the **action** colour — buttons, links,
-anything tappable. Purple carries structure and mood.
+Two primaries plus a **digital-only secondary palette** (settled 2026-09-17, #4/#5 — the
+manual's "no secondary palette" now applies to print and social, which stay on the
+primaries). Red is the **action** colour — buttons, links, anything tappable. Purple
+carries structure and mood.
 
 ### Primaries — canonical values ✅ *settled 2026-09-17: Brand Manual V2 is the source of truth*
 | token | hex | RGB | CMYK (print, from manual) | where it is already used |
@@ -56,15 +57,19 @@ red (or red on purple) is 2.05:1 — never set text or the logo one on the other
 - **Brand gradient** (print, social, profile pictures, stationery): linear **purple → red,
   diagonal top-left → bottom-right**; colours may be inverted; 50/50 stops. Logo on it is
   white. Two flavours exist in stationery: purple-heavy and red-heavy.
-- **AR mesh** (web only — `(#11)`): soft radial blobs of purple, red, the web violet and pink
+- **Gradient choice (settled 2026-09-17, #11):** both gradients are in the system, chosen by
+  **tone, not medium** — cleaner, lighter compositions take the AR mesh; more striking,
+  saturated pieces take the linear brand gradient. On print/social, where the secondary
+  palette isn't available, build the mesh from primary tints.
+- **AR mesh**: soft radial blobs of purple, red, the web violet and pink
   over white/lavender; blurred, no hard edges. Hero variant is saturated (red + plum, the two
   primaries only); content-section variant is pale (mostly white, lavender #EEC7FB-ish and
   pink #F4A3A5-ish haze). Six reference boards live in Figma Sandbox → Gradients `290:2436`.
 
-### Web "AR glow" family `(#4 — not in the manual; formalise or retire)`
-The website Figma and the live site both use a brighter violet as the *digital* accent —
-it reads as the "alive" side of the real/digital split, and it is what the AR overlay icons,
-active filter pills and feature titles use:
+### Secondary palette — digital only ✅ *settled 2026-09-17*
+The "AR glow" family is the official secondary palette, anchored on the violet. It reads as
+the "alive" side of the real/digital split — the AR overlay icons, active filter pills and
+feature titles — while brand purple stays with the still print:
 
 | token (proposed) | hex | seen |
 |---|---|---|
@@ -75,45 +80,48 @@ active filter pills and feature titles use:
 | `pink` | #DC2875 | live site `--bde-palette-pink` |
 | `blush` | #F4A3A5 | mesh haze |
 
-Rule if kept: digital surfaces only (web, app, motion). Never on print, never in the logo,
-never as body text. White on violet is 5.1:1 (AA).
+Rule: **digital surfaces only** (web, app, email accents, motion). Print and social stay on
+the primaries. Never in the logo, never as body text. White on violet is 5.1:1 (AA).
 
 ### Neutrals
 White #FFFFFF; ink = purple #702283 for headings **and** body on light grounds (mailer and web
 both do this — `(#19)`); grey text #404041 (manual folios); light glass tint = white at
 20–35% over the mesh; input borders #DCDCDC / #E5E7E7 (live site).
 
-## 3. Typography `(#5 #6 #7)`
+## 3. Typography ✅ *#5 #6 #7 settled 2026-09-17*
+
+**The rule set:** two media, one voice. **Digital** (website, app, email) = Amenti for
+display and headings, **Poppins** for body and UI. **Print & social stay on brand** =
+Amenti throughout, per the manual. Aller, Inter, Montserrat, Oxanium, the serif and the
+condensed sans are retired.
 
 ### Brand typeface — Amenti
 Geometric sans with single-storey `a`, the face of the wordmark and of every headline in the
-manual, the hub, the social posts and the mailers. Files on the hub: **Thin, Regular, Medium,
-Bold, Black** (the manual's list "Regular/Medium/SemiBold/Bold/ExtraBold" doesn't match the
-files; use the file names). Licence: Envato Elements zip — confirm webfont/end-product rights
-before self-hosting `(#5)`.
+manual, the hub, the social posts and the mailers. Weight names are normalized to the files
+(#7): **Thin, Regular, Medium, Bold, Black** — "Black" wherever the manual says ExtraBold,
+"Bold" for SemiBold. Licence: Envato Elements zip — confirm webfont/end-product rights
+before self-hosting.
 
 Manual hierarchy (p. 15, measured): H1 60 Black · H2 42 Black · H3 30 Bold · H4 20 Medium ·
 Body 10 Medium · Small 8 Regular. Hub hierarchy: 72 / 35 / 22 / 18 / 12 / 8. Manual eyebrows =
 Amenti Regular 12, uppercase, tracked ~0.5em (`T Y P E F A C E`), red.
 
-### Body / UI typeface — one decision needed
-- Manual body copy is set in **Aller** (Regular/Bold, 10pt) — never named in the manual.
-- Mailer body is **Inter** (Figma var `font/family/Modern`).
-- Website Figma **and** the live site are **Poppins** for everything (headings included); the
-  site also loads Montserrat and Oxanium.
-- Social posts add a serif (Lora-like "Revolutionize your memories") and a condensed sans.
+### Body / UI typeface — settled
+**Poppins** for body, UI, forms and email body on all digital surfaces (already live,
+geometric enough to sit under Amenti, free). Print and social body copy stays in Amenti.
+Historic drift, now retired: Aller (manual body), Inter (mailers), Montserrat + Oxanium
+(live site), the Lora-like serif and condensed sans (social). If Amenti cannot be licensed
+for web, Poppins SemiBold takes headings on web only and Amenti stays print/social.
 
-**Recommended:** Amenti Black/Bold for display and headings on every surface; **Poppins** for
-body, UI, forms and email body (already live, geometric enough to sit under Amenti, free);
-retire Aller, Inter, Montserrat, Oxanium and the serif. If Amenti cannot be licensed for web,
-Poppins SemiBold takes headings on web only and Amenti stays print/social.
-
-### Proposed web scale (Amenti + Poppins, desktop → mobile)
+### Digital type scale — normalized (Amenti + Poppins, desktop → mobile)
+**Normalized 2026-09-17 (#6):** modular scale, major third (**×1.25**) from the 18px body,
+rounded to even px: **14 · 18 · 22 · 28 · 36 · 44 · 56**. Mirror these to the hub cards;
+print keeps the manual's pt hierarchy.
 | role | face | size / line | notes |
 |---|---|---|---|
-| Display | Amenti Black | 64/72 → 40/46 | hero only; +0.02em |
-| H1 | Amenti Black | 48/56 → 34/40 | +0.02em |
-| H2 | Amenti Bold | 40/48 → 30/36 | +0.03em; "Endless Possibilities" is this, in purple |
+| Display | Amenti Black | 56/64 → 40/46 | hero only; +0.02em |
+| H1 | Amenti Black | 44/52 → 34/40 | +0.02em |
+| H2 | Amenti Bold | 36/44 → 30/36 | +0.03em; "Endless Possibilities" is this, in purple |
 | H3 | Amenti Bold | 28/36 → 24/30 | +0.03em; feature titles (violet on web) |
 | H4 | Amenti Medium | 22/30 | +0.03em; card titles |
 | Body | Poppins Regular | 18/28 → 16/26 | purple ink on light, white on dark |
@@ -138,8 +146,9 @@ designed scale, override.
   app icon — a purple ring, open top-right, with a red play triangle; a red arc closes the
   ring. Construction and clearspace on manual pp. 6–7 (clearspace ≈ the height of the `o` on
   all sides; icon alone gets the same).
-- **Current files carry ®** (hub `Logo_Final-*`, Figma "updated logos" `875:554`, website,
-  mailers). The manual's logos pre-date the ® `(#8)`.
+- **The mark is registered (settled 2026-09-17, #8): the logo carries ® across the board** —
+  hub `Logo_Final-*`, Figma "updated logos" `875:554`, website, mailers, print. The manual's
+  logo page pre-dates the registration and is outdated.
 - **Variants (hub + Figma):** 2-tone colour · purple · red · black · white. Icon: colour ·
   black · white.
 - **Accepted:** 2-tone on white; white on red; white on purple; purple on white; black on
@@ -225,8 +234,8 @@ staring at nothing, AI faces with obvious artefacts, purple/red duotones over fa
   support mesh; submit = purple/violet pill. Live forms are Fluent Forms.
 - **Leadership card:** plum #702283 card, name in white Amenti uppercase, photo slot, role
   in small caps, bio in Poppins small.
-- **Footer:** plum band, links row, Google Play + App Store badges, "© Copyright 2024
-  Phideo. All Rights Reserved."
+- **Footer:** plum band, links row, Google Play + App Store badges, "© Copyright {current
+  year} Phideo. All Rights Reserved." — keep the year current (#10).
 
 ### Email (Mailercloud, 600px)
 - **Hero alignment (2026-09-17):** the gradient hero is "blank" — there is no grid to align
@@ -269,8 +278,9 @@ red→purple corner gradient.
 Letterhead US Letter 300dpi CMYK (ring watermark, gradient footer bar); business card
 3.5×2in (front: logo + contact line; back: red/purple split, white icon, QR "Scan me! I'm a
 phideo!"); envelope 220×210mm; presentation folder 24×17in; presentation 1920×1080 RGB 72dpi;
-social templates 1920×1080. Contact line format: `Phone : … | Website : phideo.io | Mail :
-info@phideo.io` / `Address : 18129 Kingsport Drive, Malibu, CA 90265`.
+social templates 1920×1080. Contact line format (#10 — **no phone number on public
+materials**, no placeholders anywhere): `Website : phideo.io | Mail : info@phideo.io` /
+`Address : 18129 Kingsport Drive, Malibu, CA 90265`.
 
 ## 8. Motion
 Motion sting (hub, 2023-06): the ring draws on, play triangle pops. Web micro-animations
@@ -301,8 +311,11 @@ welcome once per piece, not more.
   for viewing), *create* (the verb for making).
 
 ## 10. Open decisions
-All numbered `(#n)` items above are collected with evidence and a recommendation in
-[discrepancies.md](discrepancies.md). **Settled:** #1 #2 #3 — the Brand Manual V2 is the
-source of truth for the primaries: purple **#702283**, red **#E52329**, manual CMYK for
-print. For the rest, until they're settled: build with Amenti headings, Poppins body,
-® logo files from the hub, and keep the violet family off anything printed.
+All numbered `(#n)` items above are collected with evidence and the decision in
+[discrepancies.md](discrepancies.md). **Settled:** #1–#3 (Brand Manual V2 = source of truth
+for the primaries: #702283 / #E52329, manual CMYK for print) · #4 (violet family = secondary
+palette, digital only) · #5 (digital = Amenti + Poppins; print & social = Amenti, on brand) ·
+#6 (modular ×1.25 type scale) · #7 (weight file names) · #8 (mark is registered, ® across
+the board) · #10 (no placeholders, no public phone, © current) · #11 (both gradients, chosen
+by tone) · #12 (set the live-site globals). **Still open:** #15 mission wording, #16 primary
+tagline, #19 body-text colour — the copy calls are the client's.

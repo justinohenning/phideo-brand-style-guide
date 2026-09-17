@@ -10,14 +10,14 @@
 | 1 | purple hex | ✅ Brand Manual V2 is the source of truth → **#702283** |
 | 2 | red hex | ✅ Brand Manual V2 is the source of truth → **#E52329** |
 | 3 | CMYK values for print | ✅ follows #1/#2 — manual's CMYK (C70 M100 Y0 K0 / C0 M95 Y85 K0) |
-| 4 | web violet/pink family | |
-| 5 | typefaces (Amenti + which body font; licence) | |
-| 6 | type scale | |
-| 7 | Amenti weight names | |
-| 8 | ® on the logo | |
-| 10 | contact details / mailer footer address | |
-| 11 | gradient: linear brand vs web mesh | |
-| 12 | live-site brand variables still defaults | |
+| 4 | web violet/pink family | ✅ formalised as the **secondary palette** — digital only |
+| 5 | typefaces (Amenti + which body font; licence) | ✅ two rule sets: digital = Amenti + Poppins; print & social stay on brand |
+| 6 | type scale | ✅ normalized modular scale — ×1.25 from 18px body |
+| 7 | Amenti weight names | ✅ use the file names (Black, not ExtraBold) |
+| 8 | ® on the logo | ✅ mark **is registered** — ® everywhere |
+| 10 | contact details / mailer footer address | ✅ no placeholders; real address; no public phone; © kept current |
+| 11 | gradient: linear brand vs web mesh | ✅ both — cleaner → mesh, more striking → linear gradient |
+| 12 | live-site brand variables still defaults | ✅ set the Breakdance globals to brand values |
 | 15 | mission/vision wording | |
 | 16 | primary tagline | |
 | 19 | body-text colour | |
@@ -48,6 +48,7 @@
 - Website Figma + live site: **#B200ED** violet on feature titles, the typewriter headline, active tabs; #BF1DF5 hover; #B778FA / #CC9CFE / #E5AAF9 glossy icons and pills; **#BE38EA** and **#DC2875** as named live-site palette entries; #F4A3A5 blush and lavender haze across every content section.
 - The mailers and social posts do **not** use it — they stay on #702283 / #E52329 and the linear gradient.
 - **Recommend:** keep it, but formalise it as a *digital-only* "AR glow" set (web, app, motion) with the rule "never on print, never in the logo, never as body text". It does real work: it is the visual difference between the still print (brand purple) and the living overlay (violet). If you'd rather stay pure to the manual, the fallback is purple tints from the table — but the site would lose its glow and needs a recolour pass.
+- **Decision (2026-09-17):** adopted as the official **secondary palette**, anchored on the violet. Digital use only (web, app, email accents, motion) — see #5: print and social stay on the primaries. Never in the logo, never as body text.
 
 ### 5 · Typefaces — five different answers
 | source | headings | body |
@@ -60,35 +61,42 @@
 
 - Amenti files on the hub come from an Envato Elements zip (`amenti-clean-modern-sans-2023-03-18…`). Elements' licence covers a registered end product; webfont self-hosting is usually fine but needs the download registered against "phideo.io" — worth 5 minutes to confirm before it ships in CSS.
 - **Recommend:** Amenti for display/headings on every surface (it *is* the wordmark), **Poppins** for body/UI/email (already live, free, geometric, pairs cleanly). Retire Aller, Inter, Montserrat, Oxanium, the serif and the condensed sans. Replace Poppins headings on the site with Amenti once licence is confirmed; if it can't be licensed for web, Poppins SemiBold headings on web only.
+- **Decision (2026-09-17):** two rule sets. **Digital** (website, app, email): Amenti display/headings + Poppins body/UI. **Print & social stay on brand**: Amenti throughout, per the manual. Inter, Montserrat, Oxanium, Aller, the serif and the condensed sans are retired. Licence check for self-hosted Amenti webfonts still applies.
 
 ### 6 · Type scale — three of them, none for the web
 - Manual p. 15 (measured): H1 60 Black · H2 42 Black · H3 30 Bold · H4 20 Medium · Body 10 Medium · Small 8 Regular.
 - Hub: H1 72 Black · H2 35 Black · H3 22 Bold · H4 18 Medium · Body 12 Regular · Subtitle 8 Regular.
 - Live site: Breakdance defaults — h1 32px, h2 25px, body 14px, ratio 1.25; components override ad hoc.
 - **Recommend:** adopt the proposed web scale in the design system (§3) and mirror it to the hub cards so the three agree; keep the manual's as the print scale.
+- **Decision (2026-09-17):** normalize using best practice — a **modular scale, major third (×1.25) from the 18px body, rounded to even px: 14 · 18 · 22 · 28 · 36 · 44 · 56** for all digital surfaces. Mirror it to the hub cards (follow-up). Print keeps the manual's pt hierarchy.
 
 ### 7 · Amenti weight names
 - Manual lists Regular / Medium / SemiBold / Bold / ExtraBold. Fonts embedded in the same PDF and on the hub: Thin / Regular / Medium / Bold / **Black**. There is no SemiBold or ExtraBold file.
 - **Recommend:** use the file names; "Black" wherever the manual says ExtraBold.
+- **Decision (2026-09-17):** normalized to the file names — **Thin / Regular / Medium / Bold / Black**. "Black" wherever the manual says ExtraBold, "Bold" for SemiBold.
 
 ### 8 · ® on the logo
 - Manual (2023): no ®. Hub `Logo_Final-*`, Figma "updated logos" `875:554`, website, mailers, social profile pictures: **®** top-right of the icon.
 - **Recommend:** treat the ® files as current and the manual's logo page as outdated — but confirm the mark is actually registered (USPTO) before it goes on print runs; if it's only filed, that's ™.
+- **Decision (2026-09-17):** the mark **is registered** — ® on the logo across the board; the manual's logo page is outdated.
 
 ### 10 · Contact details
 - Stationery mockups: phone **+1 233 456 7890** (placeholder). Manual back cover: **+1 310 266 0412**. Address everywhere: 18129 Kingsport Drive, Malibu, CA 90265.
 - Mailer footers (all three comps): "Tsukamoto Sogyo Building, Basement 1st Floor, 2-15, Ginza 4-chome, Chuo-ku, Tokyo, Japan" — Mailercloud template text.
 - Manual footer © 2023 vs site footer © 2024.
 - **Recommend:** confirm the real phone with the client; replace the mailer footer address before any send (CAN-SPAM needs a valid postal address); site footer year → current.
+- **Decision (2026-09-17):** no placeholder anything. **Don't publicly broadcast a phone number** — drop it from the contact line entirely. Use the real Malibu postal address where an address is required (CAN-SPAM footers). Keep the © year current everywhere.
 
 ### 11 · Gradient — linear brand vs web mesh
 - Manual: gradients are **linear, diagonal top-left → bottom-right**, purple↔red only, logo on top in white.
 - Website: **mesh/blob** gradients with white, lavender, blush and violet; heroes red-plum, content sections mostly white. Not the manual's gradient at all.
 - **Recommend:** two named gradients — *brand gradient* (linear, for print/social/avatars) and *AR mesh* (web/app backgrounds). Same primaries, different medium. Document both; don't let the mesh drift onto print.
+- **Decision (2026-09-17):** both are in the system, chosen by **tone, not medium**: cleaner, lighter compositions → the AR mesh; more striking, saturated pieces → the linear brand gradient. (On print/social, where the secondary palette isn't available, build the mesh from primary tints.)
 
 ### 12 · Live site globals never set
 - `--bde-brand-primary-color` is still Breakdance's default **blue #3B82F6**; `--bde-body-text-color` is **#ccc**; headings colour is grey-900. Brand colours only exist as three ad-hoc palette entries (title #702283, pink #DC2875, pink-highlight #BE38EA) and inline #B200ED.
 - **Recommend:** set the Breakdance globals (primary = #702283, hover = #8D4E9C or violet per #4, body text = #702283, fonts per #5) so new elements inherit the brand instead of blue.
+- **Decision (2026-09-17):** approved as recommended — set the globals on the live site (follow-up for whoever administers phideo.io).
 
 ### 15 · Mission / vision wording
 - Manual: "To increase the value of individuals and brands by linking video to a physical image using technology that is quick and easy to use." / "To create a faster, easier and more effective way of sharing information…" / purpose "To delight, entertain and educate…".

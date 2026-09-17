@@ -24,7 +24,7 @@
 body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--body);font-size:16px;line-height:1.6;padding-inline:clamp(16px,4vw,48px);padding-block:0 96px}
 a{color:var(--purple)} .wrap{max-width:1120px;margin:0 auto}
 h1,h2,h3,h4{font-family:var(--display);color:var(--heading);text-wrap:balance;margin:0;line-height:1.1;letter-spacing:.03em}
-h2{font-size:clamp(28px,4vw,40px);font-weight:700;margin-bottom:8px}
+h2{font-size:clamp(28px,3.6vw,36px);font-weight:700;margin-bottom:8px}
 h3{font-size:22px;font-weight:700;margin-bottom:6px}
 h4{font-size:17px;font-weight:500;margin-bottom:4px}
 p{margin:0 0 12px;max-width:68ch;color:var(--ink-2)}
@@ -41,7 +41,7 @@ section:first-of-type{border-top:0}
 .hero .lobe::after{left:100%;top:0}
 .hero .lobe::before{top:100%;left:0}
 .hero-in{padding:112px 40px 44px;display:grid;grid-template-columns:1.2fr 1fr;gap:32px;align-items:end}
-.hero h1{color:#fff;font-size:clamp(36px,6vw,64px);font-weight:700;letter-spacing:.02em}
+.hero h1{color:#fff;font-size:clamp(36px,5.5vw,56px);font-weight:700;letter-spacing:.02em}
 .hero .sub{color:rgba(255,255,255,.88);max-width:44ch;font-size:17px}
 .pill-tag{display:inline-block;font-family:var(--display);font-weight:500;letter-spacing:.25em;word-spacing:.6em;background:rgba(20,5,25,.35);border:1px solid rgba(255,255,255,.35);color:#fff;padding:12px 26px;border-radius:999px;margin-top:8px;font-size:15px}
 .defn{background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.3);border-radius:24px;padding:22px 24px;backdrop-filter:blur(12px);font-size:15px;line-height:1.55}
@@ -87,7 +87,7 @@ section:first-of-type{border-top:0}
 .t-display{font-family:var(--display);font-weight:700;font-size:clamp(34px,5vw,56px);line-height:1.08;letter-spacing:.02em}
 .t-h1{font-family:var(--display);font-weight:700;font-size:clamp(30px,4vw,44px);line-height:1.12;letter-spacing:.02em}
 .t-h2{font-family:var(--display);font-weight:700;font-size:clamp(26px,3.2vw,36px);line-height:1.15;letter-spacing:.03em}
-.t-h3{font-family:var(--display);font-weight:700;font-size:26px;line-height:1.25;letter-spacing:.03em;color:var(--violet)!important}
+.t-h3{font-family:var(--display);font-weight:700;font-size:28px;line-height:1.28;letter-spacing:.03em;color:var(--violet)!important}
 .t-h4{font-family:var(--display);font-weight:500;font-size:22px;line-height:1.3;letter-spacing:.03em}
 .t-body{font-family:var(--body);font-size:18px;line-height:1.55;color:var(--ink)!important}
 .t-small{font-family:var(--body);font-size:14px;line-height:1.45;color:var(--ink-2)!important}
@@ -239,9 +239,9 @@ footer{margin-top:40px;font-size:13px;color:var(--ink-3)}
   <h2>Two primaries. Red means “tap here”.</h2>
   <p class="lede">The manual is explicit: no secondary palette, primaries at full saturation, tints only when a layout truly needs them. Purple carries structure and mood; red is reserved for action.</p>
   <div class="grid g2" style="margin-top:22px">
-    <div class="sw"><div class="c" style="background:var(--purple)"></div><div class="m"><b>Purple · “Deep Plumb” <span class="flag">#1</span></b><code>#702283</code> · RGB 112 34 131 · CMYK 70 100 0 0<br>Headings, body ink, primary buttons, structure. 9.35:1 on white.
+    <div class="sw"><div class="c" style="background:var(--purple)"></div><div class="m"><b>Purple · “Deep Plumb”</b><code>#702283</code> · RGB 112 34 131 · CMYK 70 100 0 0<br>Headings, body ink, primary buttons, structure. 9.35:1 on white.
       <div class="drift" aria-label="Drift of the purple across sources"><div style="background:#702283"><span>spec #702283</span></div><div style="background:#6F2B90"><span>manual render #6F2B90</span></div><div style="background:#722C8F"><span>logo SVG #722C8F</span></div></div></div></div>
-    <div class="sw"><div class="c" style="background:var(--red)"></div><div class="m"><b>Red <span class="flag">#2</span></b><code>#E52329</code> · RGB 229 35 41 · CMYK 0 95 85 0<br>Buttons, links, the “o” play mark, eyebrows, “The Phideo Team”. 4.56:1 on white — large or bold text only.
+    <div class="sw"><div class="c" style="background:var(--red)"></div><div class="m"><b>Red</b><code>#E52329</code> · RGB 229 35 41 · CMYK 0 95 85 0<br>Buttons, links, the “o” play mark, eyebrows, “The Phideo Team”. 4.56:1 on white — large or bold text only.
       <div class="drift" aria-label="Drift of the red across sources"><div style="background:#E52329"><span>spec #E52329</span></div><div style="background:#EE2F35"><span>manual render #EE2F35</span></div><div style="background:#EC1B25"><span>logo SVG #EC1B25</span></div></div></div></div>
   </div>
 
@@ -250,8 +250,8 @@ footer{margin-top:40px;font-size:13px;color:var(--ink-3)}
     <div><h4>Red tints</h4><div class="tints"><div style="background:#E52329"><span>100</span></div><div style="background:#EA4F54"><span>80</span></div><div style="background:#EF7B7F"><span>60</span></div><div style="background:#F5A7A9" class="l"><span>40</span></div><div style="background:#FAD3D4" class="l"><span>20</span></div><div style="background:#FCE9EA" class="l"><span>10</span></div></div></div>
   </div>
 
-  <h3 style="margin-top:34px">Gradients <span class="flag">#11</span></h3>
-  <p>Two named gradients, same primaries, different media. The brand gradient is the manual’s: linear, diagonal top-left → bottom-right, colours may be inverted. The AR mesh is the website’s: soft radial blobs over white — digital surfaces only.</p>
+  <h3 style="margin-top:34px">Gradients</h3>
+  <p>Two named gradients, same primaries — both in the system, chosen by <b>tone, not medium</b>: cleaner, lighter compositions take the <b>AR mesh</b> (soft radial blobs over white); more striking, saturated pieces take the <b>brand gradient</b> (linear, diagonal top-left → bottom-right, colours may be inverted). On print and social, where the secondary palette isn’t available, build the mesh from primary tints.</p>
   <div class="grid g3">
     <div class="grad brand"><svg viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g clip-path="url(#clip_w)">
@@ -312,8 +312,8 @@ footer{margin-top:40px;font-size:13px;color:var(--ink-3)}
     <div class="grad mesh"><span class="lbl">AR mesh · web &amp; app only</span></div>
   </div>
 
-  <h3 style="margin-top:34px">The web “AR glow” family <span class="flag">#4</span></h3>
-  <p>Not in the manual, but on every website screen and in the live CSS. It is the colour of the <em>living</em> side of the split — the overlay, the active tab, the glossy icons — while brand purple stays with the still print. Keep it digital-only: never on print, never in the logo, never as body text.</p>
+  <h3 style="margin-top:34px">Secondary palette — digital only</h3>
+  <p>The “AR glow” family is the official secondary palette, anchored on the violet. It is the colour of the <em>living</em> side of the split — the overlay, the active tab, the glossy icons — while brand purple stays with the still print. Digital surfaces only (web, app, email accents, motion): <b>print and social stay on the primaries</b>. Never in the logo, never as body text.</p>
   <div class="grid g4">
     <div class="sw"><div class="c" style="background:#B200ED;height:80px"></div><div class="m"><b>Violet</b><code>#B200ED</code> · titles, active pills</div></div>
     <div class="sw"><div class="c" style="background:#BF1DF5;height:80px"></div><div class="m"><b>Violet hover</b><code>#BF1DF5</code></div></div>
@@ -335,8 +335,8 @@ footer{margin-top:40px;font-size:13px;color:var(--ink-3)}
 <!-- TYPE -->
 <section>
   <p class="eyebrow">Typography</p>
-  <h2>Amenti speaks. Poppins explains. <span class="flag">#5</span></h2>
-  <p class="lede">Amenti is the wordmark’s face and every headline in the manual, the hub, the social posts and the mailers. Body copy currently varies by surface — Aller in the manual, Inter in the emails, Poppins on the website. Recommendation: Amenti for display and headings everywhere, Poppins for body and UI (already live, free, geometric enough to sit under Amenti).</p>
+  <h2>Amenti speaks. Poppins explains.</h2>
+  <p class="lede">Two media, one voice. <b>Digital</b> (website, app, email): Amenti for display and headings, Poppins for body and UI. <b>Print and social stay on brand</b>: Amenti throughout, per the manual. Aller, Inter, Montserrat, Oxanium, the serif and the condensed sans are retired.</p>
   <div class="alpha">ABCDEFGHIJKLMNOPQRSTUVWXYZ abcdefghijklmnopqrstuvwxyz 1234567890</div>
   <div class="weights">
     <span style="font-weight:700">Amenti Black<small>display · file on hub (preview broken)</small></span>
@@ -345,13 +345,13 @@ footer{margin-top:40px;font-size:13px;color:var(--ink-3)}
     <span style="font-weight:400">Amenti Regular<small>eyebrows, email H2</small></span>
     <span style="font-family:var(--body);font-weight:400">Poppins<small>body · UI · email body</small></span>
   </div>
-  <p class="cap">The manual lists Regular / Medium / SemiBold / Bold / ExtraBold; the actual files are Thin / Regular / Medium / Bold / Black <span class="flag">#7</span>. Amenti Black is shown here with Bold (the Black file on the hub returns 403). Check the Envato Elements licence before self-hosting on phideo.io.</p>
+  <p class="cap">Weight names are normalized to the files: Thin / Regular / Medium / Bold / Black — “Black” wherever the manual says ExtraBold, “Bold” for SemiBold. Amenti Black is shown here with Bold (the Black file on the hub returns 403). Check the Envato Elements licence before self-hosting on phideo.io.</p>
 
-  <h3 style="margin-top:30px">Proposed web scale <span class="flag">#6</span></h3>
+  <h3 style="margin-top:30px">Digital type scale — normalized: modular, ×1.25 from the 18px body</h3>
   <div class="spec">
-    <div class="row"><div class="k">Display · 64/72 · +0.02em</div><div class="v t-display">Bring Photos to Life. Instantly.</div></div>
-    <div class="row"><div class="k">H1 · 48/56 · +0.02em</div><div class="v t-h1">Turn any picture into a video</div></div>
-    <div class="row"><div class="k">H2 · 40/48 · +0.03em</div><div class="v t-h2">Endless Possibilities</div></div>
+    <div class="row"><div class="k">Display · 56/64 · +0.02em</div><div class="v t-display">Bring Photos to Life. Instantly.</div></div>
+    <div class="row"><div class="k">H1 · 44/52 · +0.02em</div><div class="v t-h1">Turn any picture into a video</div></div>
+    <div class="row"><div class="k">H2 · 36/44 · +0.03em</div><div class="v t-h2">Endless Possibilities</div></div>
     <div class="row"><div class="k">H3 · 28/36 · +0.03em · violet on web</div><div class="v t-h3">Instant Engagement</div></div>
     <div class="row"><div class="k">H4 · 22/30 · +0.03em · Medium</div><div class="v t-h4">What’s Phideo?</div></div>
     <div class="row"><div class="k">Body · 18/28 · Poppins</div><div class="v t-body">Turn any picture into an augmented reality video in seconds — just scan and watch the future unfold.</div></div>
@@ -366,7 +366,7 @@ footer{margin-top:40px;font-size:13px;color:var(--ink-3)}
 <section>
   <p class="eyebrow">Logo</p>
   <h2>The “o” is the app.</h2>
-  <p class="lede">“phi” in purple, “de” in red, and the o replaced by the icon: a purple ring open at the top-right, a red arc closing it, a red play triangle inside. Clearspace on every side equals the height of the o. Current files on the hub and in Figma carry the ® <span class="flag">#8</span>; the manual’s logo page pre-dates it.</p>
+  <p class="lede">“phi” in purple, “de” in red, and the o replaced by the icon: a purple ring open at the top-right, a red arc closing it, a red play triangle inside. Clearspace on every side equals the height of the o. The mark <b>is registered</b> (settled 17 Sep 2026): the logo carries ® across the board — the manual’s logo page pre-dates it.</p>
   <div class="grid g3" style="margin-top:18px">
     <div><div class="logo-tile on-white"><svg viewBox="36 196 461 120" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g clip-path="url(#clip_c)">
@@ -706,7 +706,7 @@ footer{margin-top:40px;font-size:13px;color:var(--ink-3)}
     </div>
     <div class="cap" style="margin-top:8px"><b>Automated / transactional</b> — the quiet one. No hero at all: small centred logo, a thin brand-gradient rule, utility type and a muted reassurance line. Recognisably Phideo at a glance, zero marketing weight.</div></div>
   </div>
-  <p class="cap" style="margin-top:14px">Footers show the Malibu address — the live mailers still carry the Mailercloud Tokyo placeholder <span class="flag">#10</span>; replace before any send.</p>
+  <p class="cap" style="margin-top:14px">Footers carry the real Malibu address, no phone number, and a current © year (settled 17 Sep 2026) — the live mailers still carry the Mailercloud Tokyo placeholder; replace before any send.</p>
   <h3 style="margin-top:30px">App</h3>
   <p class="cap" style="margin-top:6px">White screens, logo + “phideo = photo + video” on top, light pill inputs, <b>red</b> primary pill (Next / Share / Save), outline purple secondary, purple progress bar, Amenti step titles.</p>
 </section>
@@ -730,13 +730,13 @@ footer{margin-top:40px;font-size:13px;color:var(--ink-3)}
   <div style="margin-top:14px">
     <div class="dec"><div class="n">1–2</div><div><h4>Purple and red each exist in three values</h4><p>Spec #702283 / #E52329 · manual’s own render #6F2B90 / #EE2F35 · logo SVGs #722C8F / #EC1B25.</p><span class="rec">✅ Settled 17 Sep 2026 — the Brand Manual V2 spec is the source of truth: <strong>#702283 / #E52329</strong>. Corrected logo SVG/PNG variants are in <code>logo/</code>; upload them to the asset hub.</span></div></div>
     <div class="dec"><div class="n">3</div><div><h4>CMYK on the hub is auto-derived</h4><p>Manual: C70 M100 Y0 K0 / C0 M95 Y85 K0. Hub: 15,74,0,49 / 0,85,82,10 — 49% black would print muddy.</p><span class="rec">✅ Settled 17 Sep 2026 — follows #1–2: the manual’s CMYK for anything printed. Hub cards still need correcting.</span></div></div>
-    <div class="dec"><div class="n">4</div><div><h4>The web violet family isn’t in the manual</h4><p>#B200ED, #BE38EA, #DC2875 and the lavender haze run through every website screen and the live CSS; the manual says “no secondary palette”.</p><span class="rec">Formalise as digital-only “AR glow”; keep it off print and the logo.</span></div></div>
-    <div class="dec"><div class="n">5</div><div><h4>Five typographic answers</h4><p>Manual Amenti + Aller · hub Amenti only · mailer Amenti + Inter · website and live site Poppins (plus Montserrat, Oxanium) · social adds a serif.</p><span class="rec">Amenti headings + Poppins body; confirm the Envato licence for web.</span></div></div>
-    <div class="dec"><div class="n">6–7</div><div><h4>Three type scales and mismatched weight names</h4><p>Manual 60/42/30/20/10/8, hub 72/35/22/18/12/8, live site Breakdance defaults. Manual names SemiBold/ExtraBold that don’t exist as files.</p><span class="rec">Adopt the web scale above; use file names (Black, not ExtraBold).</span></div></div>
-    <div class="dec"><div class="n">8</div><div><h4>® on the logo</h4><p>Manual: none. Hub, Figma “updated logos”, website, mailers: ®.</p><span class="rec">® files are current — confirm the mark is registered, not just filed.</span></div></div>
-    <div class="dec"><div class="n">10</div><div><h4>Contact details</h4><p>Stationery phone is the placeholder +1 233 456 7890; back cover says +1 310 266 0412. Mailer footers show a Tokyo template address. © 2023 vs © 2024.</p><span class="rec">Confirm phone; fix mailer footer before sending.</span></div></div>
-    <div class="dec"><div class="n">11</div><div><h4>Linear brand gradient vs web mesh</h4><p>Manual: diagonal linear purple↔red. Website: blurred mesh with white, lavender, blush.</p><span class="rec">Name both; brand gradient for print/social, mesh for web/app.</span></div></div>
-    <div class="dec"><div class="n">12</div><div><h4>Live site globals were never set</h4><p>Breakdance primary is still default blue #3B82F6, body text #ccc.</p><span class="rec">Set the globals to the brand so new elements inherit it.</span></div></div>
+    <div class="dec"><div class="n">4</div><div><h4>The web violet family isn’t in the manual</h4><p>#B200ED, #BE38EA, #DC2875 and the lavender haze run through every website screen and the live CSS; the manual says “no secondary palette”.</p><span class="rec">✅ Settled 17 Sep 2026 — adopted as the official <strong>secondary palette</strong>, anchored on the violet. Digital only (web, app, email accents, motion); print and social stay on the primaries. Never in the logo, never as body text.</span></div></div>
+    <div class="dec"><div class="n">5</div><div><h4>Five typographic answers</h4><p>Manual Amenti + Aller · hub Amenti only · mailer Amenti + Inter · website and live site Poppins (plus Montserrat, Oxanium) · social adds a serif.</p><span class="rec">✅ Settled 17 Sep 2026 — two rule sets: <strong>digital</strong> (website, app, email) = Amenti headings + Poppins body; <strong>print &amp; social stay on brand</strong> = Amenti throughout. Everything else is retired. Envato licence check still applies for webfonts.</span></div></div>
+    <div class="dec"><div class="n">6–7</div><div><h4>Three type scales and mismatched weight names</h4><p>Manual 60/42/30/20/10/8, hub 72/35/22/18/12/8, live site Breakdance defaults. Manual names SemiBold/ExtraBold that don’t exist as files.</p><span class="rec">✅ Settled 17 Sep 2026 — digital scale normalized to a <strong>×1.25 modular scale</strong> from the 18px body: 14 · 18 · 22 · 28 · 36 · 44 · 56 (mirror to the hub; print keeps the manual’s pt hierarchy). Weight names follow the files: <strong>Black</strong>, not ExtraBold; <strong>Bold</strong>, not SemiBold.</span></div></div>
+    <div class="dec"><div class="n">8</div><div><h4>® on the logo</h4><p>Manual: none. Hub, Figma “updated logos”, website, mailers: ®.</p><span class="rec">✅ Settled 17 Sep 2026 — the mark <strong>is registered</strong>. The logo carries ® across the board; the manual’s logo page is outdated.</span></div></div>
+    <div class="dec"><div class="n">10</div><div><h4>Contact details</h4><p>Stationery phone is the placeholder +1 233 456 7890; back cover says +1 310 266 0412. Mailer footers show a Tokyo template address. © 2023 vs © 2024.</p><span class="rec">✅ Settled 17 Sep 2026 — no placeholders anywhere, and <strong>no phone number on public materials</strong>. Use the real Malibu address where one is required (CAN-SPAM footers). Keep the © year current.</span></div></div>
+    <div class="dec"><div class="n">11</div><div><h4>Linear brand gradient vs web mesh</h4><p>Manual: diagonal linear purple↔red. Website: blurred mesh with white, lavender, blush.</p><span class="rec">✅ Settled 17 Sep 2026 — both are in the system, chosen by <strong>tone, not medium</strong>: cleaner looks take the mesh; more striking designs take the linear brand gradient.</span></div></div>
+    <div class="dec"><div class="n">12</div><div><h4>Live site globals were never set</h4><p>Breakdance primary is still default blue #3B82F6, body text #ccc.</p><span class="rec">✅ Settled 17 Sep 2026 — approved: set the Breakdance globals (primary #702283, fonts per #5) so new elements inherit the brand. Follow-up sits with whoever administers phideo.io.</span></div></div>
     <div class="dec"><div class="n">15–16</div><div><h4>Mission wording and the primary tagline</h4><p>The About comp rewords the manual’s mission/vision; six taglines are in circulation.</p><span class="rec">One mission text; “Bring Photos to Life. Instantly.” as primary, “Scan. Watch. Experience.” as the process line — client’s call.</span></div></div>
     <div class="dec"><div class="n">19</div><div><h4>Body-text colour</h4><p>Manual sets body in red Aller; mailers and web use purple; live global is #ccc.</p><span class="rec">Purple ink on light, white on dark; red only for actions.</span></div></div>
   </div>
