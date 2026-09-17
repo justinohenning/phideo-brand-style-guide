@@ -157,10 +157,20 @@ Final plates live in `photography/plate-{m,s,w}.png`; composites in the style gu
   gilded frame is visible *inside* the phone screen (live viewfinder, not full-bleed
   playback). Painting frozen, camera-mode read strong — but the prompted pan didn't
   happen; the hand barely moved. FIX.
-- **Take 5 (explicit trajectory):** SHIP — pan brief rewritten as start position → end
-  position ("hand starts in front of the LEFT side… glides to the RIGHT side, travelling
-  the width of the painting"), 10s. The arm visibly travels and the on-screen view tracks
-  it like a viewfinder — the ship slides into the screen as the phone reaches it — while
-  the wall painting stays frozen. Lessons on file: (a) the mechanic's motion cues (frame
-  inside the screen + a moving hand) are what sell "camera, not playback"; (b) video
-  models ignore vague motion verbs — write trajectories as explicit start/end positions.
+- **Take 5 (explicit trajectory):** shipped, then pulled after client review — pan brief
+  rewritten as start position → end position ("hand starts in front of the LEFT side…
+  glides to the RIGHT side"), 10s. The arm travels and the viewfinder tracks — but the
+  pan read as mechanical (constant robotic speed) and the footage inside the screen
+  played in heavy slow motion, which hides the very thing being sold: that the photo is
+  now a *video*. Lessons: (a) video models ignore vague motion verbs — write trajectories
+  as explicit start/end positions; (b) motion cues (frame inside the screen + a moving
+  hand) are what sell "camera, not playback".
+- **Take 6 (natural motion + real-time speed):** SHIP — hand direction rewritten as
+  human behaviour ("moves like a person in awe, taking it all in: uneven rhythm, slows
+  as something catches the eye, tilts, leans in"), and the screen footage explicitly
+  briefed as "real-time natural speed, absolutely no slow motion — waves crash at the
+  pace of real waves". Verified in QA: frames 0.5s apart show the on-screen wave fully
+  reorganising (real-time energy) while the wall painting stays pixel-frozen; the hand's
+  height, tilt and distance all vary across the pan. Lesson: brief the hand as a
+  *character with an emotion*, not a camera move — and name the playback speed, because
+  models default to dreamy slow motion.

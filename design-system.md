@@ -221,12 +221,15 @@ must depict this correctly:
   itself must read as frozen. Full-bleed footage, no app chrome. Never unrelated footage
   on the screen.
 - **Selling it in motion (video/film):** the phone reads as a **live camera, not a video
-  player**. Two cues do the selling: (1) the print's *frame* (and a sliver of its
+  player**. Three cues do the selling: (1) the print's *frame* (and a sliver of its
   surroundings) is visible *inside* the screen — the viewer sees the phone is pointed at
-  the wall, not playing a file; (2) the hand **moves** — a slow pan across the print with
-  the on-screen view tracking like a viewfinder, new parts of the living image sliding
-  into view. A static hand kills the illusion: it reads as someone watching a clip that
-  merely resembles the print.
+  the wall, not playing a file; (2) the hand **moves like a person in awe** — drifting
+  across the print with a human, slightly uneven rhythm, pausing, tilting, leaning in,
+  with the on-screen view tracking like a viewfinder — never a mechanical constant-speed
+  pan; (3) the footage inside the screen plays at **real-time natural speed** — waves
+  crash at the pace of real waves. Slow motion reads as a still with a filter and hides
+  the very thing being sold: that it's now a video. A static hand kills the illusion the
+  same way: it reads as someone watching a clip that merely resembles the print.
 
 Reference film: `photography/phideo-mechanic-demo.mp4` — first-person museum demo, the
 painting still on the wall, alive inside the phone.
