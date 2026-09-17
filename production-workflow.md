@@ -295,6 +295,19 @@ clearance on marketing — no room for further upward cropping.
   rides three distinct crashes in real time. **Lesson, now doctrine: when the camera
   must travel, never ask for frozen-world and living-screen in one generation — shoot
   the static plate first, then edit motion into the screen.**
+- **Take 11 (client notes on Take 10):** SHIP — three notes, all fixed with the same
+  two-pass method. (a) Phone back to **portrait** hold, restyled as a current flagship
+  (near-bezel-free, titanium edges) via a targeted start-frame edit; (b) the painting's
+  **gilded frame stays visible inside the screen** for the whole clip — the frame *is*
+  the proof the phone is aimed at the wall, so the screen-edit brief pinned it: "even
+  the picture frame visible inside the phone screen stays fixed as the border of the
+  live view"; (c) **the ship is the star of the motion** — briefed as continuous
+  behavior, not an event ("the bow plunges into a trough and rises, the hull heels,
+  the masts sway — continuously, for the whole clip"), on top of the three scheduled
+  crashes. QA at quarter-second granularity: wall painting pixel-steady, ship visibly
+  changes attitude between frames 0.25s apart, frame bars inside the screen never drop.
+  Note for future grades: the on-screen footage drifted colder than the painting's
+  golden palette — vivid, but next reshoot should carry the warm sky into the screen.
 
 ## QA log — family-home discovery shoot, 20 shots (2026-09-17)
 
