@@ -98,6 +98,12 @@ section:first-of-type{border-top:0}
 .weights span small{display:block;font-family:var(--body);font-size:11px;opacity:.75;letter-spacing:.06em;text-transform:uppercase}
 /* logo */
 .logo-tile{border-radius:20px;display:grid;place-items:center;height:130px;border:1px solid var(--line)}
+.omark-row{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:16px}
+@media (max-width:760px){.omark-row{grid-template-columns:repeat(2,1fr)}}
+.omark-tile{position:relative;aspect-ratio:4/3;border-radius:18px;border:1px solid var(--line);display:grid;place-items:center;overflow:hidden}
+.omark-tile svg{width:54px;height:55px;position:relative}
+.omark-tile img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.omark-tile.media svg{filter:drop-shadow(0 4px 14px rgba(20,5,25,.5))}
 .logo-tile svg{width:74%;max-width:340px;height:auto}
 .logo-tile.on-white{background:#fff}.logo-tile.on-purple{background:var(--purple)}.logo-tile.on-red{background:var(--red)}.logo-tile.on-grad{background:linear-gradient(135deg,var(--purple),var(--red))}.logo-tile.on-black{background:#111}
 .cap{font-size:12px;color:var(--ink-3);margin-top:6px}
@@ -111,8 +117,7 @@ section:first-of-type{border-top:0}
 .phone{position:absolute;right:4%;top:6%;width:62%;height:88%;border-radius:26px;background:#1a1420;padding:8px;box-shadow:0 18px 40px rgba(40,10,50,.35)}
 .phone .screen{width:100%;height:100%;border-radius:20px;overflow:hidden;position:relative;background:linear-gradient(160deg,#F4A3A5 0%,#B200ED 45%,#702283 100%)}
 .phone .screen:after{content:"";position:absolute;inset:0;background:radial-gradient(40% 40% at 50% 45%,rgba(255,255,255,.55),transparent 70%)}
-.phone .play{position:absolute;left:50%;top:50%;width:46px;height:46px;transform:translate(-50%,-50%);border-radius:50%;background:rgba(255,255,255,.22);border:2px solid rgba(255,255,255,.7);display:grid;place-items:center}
-.phone .play:before{content:"";border-left:14px solid #fff;border-top:9px solid transparent;border-bottom:9px solid transparent;margin-left:4px}
+.phone .play{position:absolute;left:50%;top:50%;width:52px;height:52px;transform:translate(-50%,-50%);color:#fff;filter:drop-shadow(0 4px 14px rgba(20,5,25,.45))}
 .ar-copy{background:var(--glass);border:1px solid var(--glass-line);border-radius:22px;padding:22px 24px;backdrop-filter:blur(16px)}
 .ar-copy h3{margin-bottom:8px}
 .ar-copy ul{margin:0;padding-left:18px;color:var(--ink-2);font-size:15px}
@@ -223,9 +228,11 @@ footer{margin-top:40px;font-size:13px;color:var(--ink-3)}
 <path d="M192.83 198.76C194.58 197.01 196.88 196.13 199.72 196.13C202.56 196.13 204.85 197.01 206.61 198.76C208.36 200.51 209.24 202.73 209.24 205.4C209.24 208.07 208.36 210.28 206.61 212.04C204.86 213.79 202.56 214.67 199.72 214.67C196.88 214.67 194.58 213.79 192.83 212.04C191.08 210.29 190.2 208.08 190.2 205.4C190.2 202.72 191.08 200.52 192.83 198.76ZM191.82 220.68H207.6V289.74H191.82V220.68Z" fill="#702283"/>
 <path d="M286.13 196.13V256.87C286.13 261.71 285.27 266.12 283.56 270.08C281.85 274.05 279.49 277.49 276.48 280.41C273.47 283.33 269.88 285.59 265.71 287.17C261.53 288.75 256.94 289.55 251.93 289.55C246.92 289.55 242.24 288.69 237.9 286.98C233.56 285.27 229.82 282.87 226.69 279.78C223.56 276.69 221.12 273.06 219.36 268.88C217.61 264.71 216.73 260.11 216.73 255.1C216.73 250.09 217.54 245.48 219.17 241.26C220.8 237.05 223.05 233.43 225.93 230.43C228.81 227.42 232.23 225.04 236.2 223.29C240.16 221.54 244.57 220.66 249.41 220.66C253.75 220.66 257.68 221.49 261.18 223.16C264.69 224.83 267.69 227.09 270.2 229.92V196.1H286.11L286.13 196.13ZM234.09 263.33C235.05 265.79 236.36 267.92 238.04 269.72C239.71 271.52 241.73 272.91 244.11 273.92C246.49 274.92 249.06 275.42 251.81 275.42C254.56 275.42 257.11 274.94 259.45 273.98C261.79 273.02 263.81 271.66 265.52 269.91C267.23 268.16 268.55 266.03 269.47 263.52C270.39 261.02 270.85 258.22 270.85 255.13C270.93 252.12 270.49 249.37 269.54 246.86C268.58 244.36 267.26 242.21 265.59 240.41C263.92 238.62 261.89 237.22 259.52 236.21C257.14 235.21 254.57 234.71 251.82 234.71C249.07 234.71 246.5 235.21 244.12 236.21C241.74 237.21 239.69 238.63 237.98 240.47C236.27 242.31 234.95 244.46 234.03 246.92C233.11 249.38 232.65 252.12 232.65 255.12C232.65 258.12 233.13 260.86 234.09 263.32V263.33Z" fill="#E52329"/>
 <path d="M360.15 269.03C357.23 275.79 353.11 280.89 347.81 284.31C342.51 287.73 336.1 289.44 328.59 289.44C323.25 289.44 318.42 288.56 314.12 286.81C309.82 285.06 306.19 282.64 303.22 279.55C300.26 276.46 297.96 272.83 296.33 268.65C294.7 264.48 293.89 259.97 293.89 255.12C293.89 250.27 294.68 245.6 296.27 241.34C297.86 237.08 300.13 233.43 303.1 230.38C306.06 227.33 309.65 224.95 313.87 223.24C318.08 221.53 322.78 220.67 327.96 220.67C333.14 220.67 337.69 221.48 341.86 223.11C346.03 224.74 349.63 227.06 352.63 230.06C355.63 233.06 357.95 236.66 359.58 240.83C361.21 245.01 362.02 249.6 362.02 254.61C362.02 255.61 361.96 256.78 361.83 258.12C361.71 259.46 361.56 260.46 361.39 261.13H308.04C308.46 263.47 309.23 265.6 310.36 267.52C311.49 269.44 312.95 271.09 314.74 272.47C316.53 273.85 318.64 274.93 321.07 275.73C323.49 276.52 326.16 276.92 329.09 276.92C330.51 276.92 331.99 276.77 333.54 276.48C335.08 276.19 336.59 275.75 338.05 275.16C339.51 274.58 340.89 273.78 342.18 272.78C343.47 271.78 344.62 270.53 345.62 269.02H360.15V269.03ZM349 250.99C348.75 248.65 348.12 246.42 347.12 244.29C346.12 242.16 344.76 240.3 343.05 238.72C341.34 237.14 339.27 235.86 336.85 234.9C334.43 233.94 331.67 233.46 328.58 233.46C325.07 233.46 322.05 234.02 319.5 235.15C316.95 236.28 314.84 237.72 313.17 239.47C311.5 241.22 310.27 243.12 309.48 245.17C308.69 247.22 308.29 249.16 308.29 250.99H349Z" fill="#E52329"/>
+<g id="omark">
 <path d="M410.72 272.4L441.54 255.06L410.72 237.71V272.4Z" fill="#E52329"/>
 <path d="M444.19 279.08C434.26 287.89 419.48 289.95 407.22 283.12C394.96 276.29 388.93 262.64 391.21 249.56L372.35 239.05C364.87 262.56 374.68 288.87 397.07 301.35C419.46 313.83 446.99 308.33 463.05 289.6L444.19 279.09V279.08Z" fill="#702283"/>
 <path d="M382.67 220.52L401.53 231.03C411.46 222.22 426.24 220.16 438.5 226.99C450.75 233.82 456.79 247.47 454.51 260.55L473.37 271.06C480.85 247.55 471.04 221.24 448.65 208.76C426.26 196.28 398.73 201.78 382.67 220.51V220.52Z" fill="#E52329"/>
+</g>
 <path d="M484.086 225.798C490.555 225.798 495.799 220.554 495.799 214.086C495.799 207.617 490.555 202.373 484.086 202.373C477.617 202.373 472.374 207.617 472.374 214.086C472.374 220.554 477.617 225.798 484.086 225.798Z" stroke="#702283" stroke-width="2.07161"/>
 <mask id="mask0_875_555" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="471" y="201" width="26" height="26">
 <path d="M496.516 201.656H471.656V226.516H496.516V201.656Z" fill="black"/>
@@ -241,6 +248,11 @@ footer{margin-top:40px;font-size:13px;color:var(--ink-3)}
 <clipPath id="clip_c">
 <rect width="512" height="512" fill="white"/>
 </clipPath>
+<g id="omark-mono">
+<path d="M410.72 272.4L441.54 255.06L410.72 237.71V272.4Z" fill="currentColor"/>
+<path d="M444.19 279.08C434.26 287.89 419.48 289.95 407.22 283.12C394.96 276.29 388.93 262.64 391.21 249.56L372.35 239.05C364.87 262.56 374.68 288.87 397.07 301.35C419.46 313.83 446.99 308.33 463.05 289.6L444.19 279.09V279.08Z" fill="currentColor"/>
+<path d="M382.67 220.52L401.53 231.03C411.46 222.22 426.24 220.16 438.5 226.99C450.75 233.82 456.79 247.47 454.51 260.55L473.37 271.06C480.85 247.55 471.04 221.24 448.65 208.76C426.26 196.28 398.73 201.78 382.67 220.51V220.52Z" fill="currentColor"/>
+</g>
 </defs>
 </svg>
 </div>
@@ -569,6 +581,16 @@ footer{margin-top:40px;font-size:13px;color:var(--ink-3)}
 </div><div class="cap">On any gradient: white only</div></div>
   </div>
   <p class="cap" style="margin-top:12px">Not accepted: stretch, skew, rotate, shadows or bevels, colour swaps, purple on grey, red on purple, any placement on a busy photo without a scrim. Print placement: upper- or lower-left. Web and email: top-left inside a lobe in the surrounding background colour that cuts into the hero with inverted (concave) corner joins — sized so the wordmark always reads as a word, while the hero stays the point.</p>
+
+  <h3 style="margin-top:34px">The o is the mark — and every play button</h3>
+  <p>The o stands alone as the brand mark: it is the play affordance on every video surface and the “this is a phideo” badge on prints, posters and tags. <b>No generic ▶ triangle appears anywhere</b> in the product, the site or communications — if it plays, it’s the o. Full colour or monotone is decided by the ground, the way every video platform decides its overlay controls: contrast first.</p>
+  <div class="omark-row">
+    <div><div class="omark-tile" style="background:var(--surface)"><svg viewBox="364.8 196.2 116.2 117.7" aria-hidden="true"><use href="#omark"/></svg></div><p class="cap" style="margin-top:8px"><b>Full colour</b> — white and light neutral grounds only, where both colours hold contrast: marketing pages, packaging, the printed phideo tag.</p></div>
+    <div><div class="omark-tile" style="background:linear-gradient(135deg,var(--purple),#8E1C6A 70%,var(--red))"><svg viewBox="364.8 196.2 116.2 117.7" style="color:#fff" aria-hidden="true"><use href="#omark-mono"/></svg></div><p class="cap" style="margin-top:8px"><b>White</b> — on brand gradients, brand colours and dark UI. Never re-introduce the two-colour split on a coloured ground.</p></div>
+    <div><div class="omark-tile media"><img src="photography/phideo-photo-04-the-wall.png" alt=""><svg viewBox="364.8 196.2 116.2 117.7" style="color:#fff" aria-hidden="true"><use href="#omark-mono"/></svg></div><p class="cap" style="margin-top:8px"><b>White over media</b> — the play button on photos and video is always monotone white (industry standard for overlay controls), with a soft shadow for separation. No containing circle.</p></div>
+    <div><div class="omark-tile" style="background:var(--surface-2)"><svg viewBox="364.8 196.2 116.2 117.7" style="color:var(--purple)" aria-hidden="true"><use href="#omark-mono"/></svg></div><p class="cap" style="margin-top:8px"><b>Single colour</b> — purple (or black) for one-colour print, engraving, embossing. Also the fallback below ~24px, where the two-colour split stops reading.</p></div>
+  </div>
+  <p class="cap" style="margin-top:12px">Construction never changes: ring open at the top-right, arc closing it, triangle pointing right — all three pieces recolour together, never independently. Minimum size 16px; from 16–24px use monotone. The o alone doesn’t carry the ® — that belongs to the full logo.</p>
 </section>
 
 <!-- IMAGERY -->
@@ -579,7 +601,7 @@ footer{margin-top:40px;font-size:13px;color:var(--ink-3)}
   <div class="ar-stage" style="margin-top:22px">
     <div class="ar-scene" aria-label="Diagram: a black-and-white print with a phideo tag, and a phone showing the same scene alive in colour">
       <div class="print"><div class="qr"></div></div>
-      <div class="phone"><div class="screen"><div class="play"></div></div></div>
+      <div class="phone"><div class="screen"><svg class="play" viewBox="364.8 196.2 116.2 117.7" aria-hidden="true"><use href="#omark-mono"/></svg></div></div>
     </div>
     <div class="ar-copy">
       <h3>Five ways to show it</h3>
@@ -644,7 +666,7 @@ footer{margin-top:40px;font-size:13px;color:var(--ink-3)}
     <div class="card"><h4>Tracked tagline pill</h4><p>Translucent dark pill, white Amenti with wide word-spacing: “Scan.&nbsp;&nbsp;Watch.&nbsp;&nbsp;Experience.”</p></div>
     <div class="card"><h4>Dictionary definition</h4><p>phideo · noun · /ˈfid ē ō/ with the two senses. Hero or intro block (hub “Phideo-hero”, manual p. 1).</p></div>
     <div class="card"><h4>Typewriter reveal</h4><p>“What is Phideo? / Phideo = photo + video” builds word by word in violet on the pale mesh.</p></div>
-    <div class="card"><h4>Icons</h4><p>Print: thin white line icons in flat red/purple/gradient circles. Web: glossy violet glyphs — phone in hands, QR cluster, play phone, % badge.</p></div>
+    <div class="card"><h4>Icons</h4><p>Print: thin white line icons in flat red/purple/gradient circles. Web: glossy violet glyphs — phone in hands, QR cluster, play phone, % badge. Wherever an icon includes a play symbol, it’s the o mark — never a generic triangle (see §Logo).</p></div>
   </div>
 </section>
 
@@ -669,7 +691,7 @@ footer{margin-top:40px;font-size:13px;color:var(--ink-3)}
   <div class="demo">
     <div class="glass">
       <div class="feature">
-        <div class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="6" width="18" height="12" rx="3"/><path d="M10 9.5v5l4-2.5z" fill="#fff" stroke="none"/></svg></div>
+        <div class="ic"><svg viewBox="364.8 196.2 116.2 117.7" style="width:32px;height:32px;color:#fff" aria-hidden="true"><use href="#omark-mono"/></svg></div>
         <div><h3>Instant Engagement</h3><p style="font-size:14px;margin:0">Scan and watch within seconds.</p></div>
       </div>
     </div>

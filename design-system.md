@@ -161,6 +161,27 @@ designed scale, override.
 - **Favicon / app icon:** the ring-and-play `o` alone; social profile pictures use the white
   wordmark on the brand gradient or on flat purple/red.
 
+### The o as the mark (added 2026-09-17)
+
+The `o` stands alone as the brand mark: it is the **play affordance on every video surface**
+and the "this is a phideo" badge on prints, posters and tags. **No generic ▶ triangle appears
+anywhere** in the product, site or communications — if it plays, it's the o.
+
+Colour is decided by the ground (contrast first, per overlay-control best practice):
+
+1. **Full colour** (purple ring + red arc + red triangle) — white and light neutral grounds
+   only, where both colours hold contrast: marketing pages, packaging, the printed tag.
+2. **Monotone white** — on brand gradients, brand colours, dark UI, and **always over
+   photography/video** (overlay play controls are monochrome white, industry standard).
+   A soft drop shadow is allowed for separation; no containing circle or pill.
+3. **Monotone purple (or black)** — one-colour print, engraving, embossing; also the
+   fallback at small sizes.
+
+Construction never changes: ring open top-right, arc closing it, triangle pointing right;
+all three pieces recolour together, never independently — and never violet. Minimum size
+16px; from 16–24px use monotone (the two-colour split stops reading). The o alone doesn't
+carry the ®; that belongs to the full logo.
+
 ## 5. Imagery — the AR language
 
 The manual sets four photography modes; the website adds a fifth. Every image should let a
