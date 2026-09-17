@@ -276,6 +276,25 @@ clearance on marketing — no room for further upward cropping.
   brief motion as things that happen at moments, not as a tempo. And POV sway is free
   realism: the world moving while the print stays frozen is itself proof the print is an
   object, not a screen.
+- **Takes 8–9 (steadicam walk-up):** FAIL — client asked for a first-person steadicam
+  *walk-up* to the painting. Under sustained forward camera motion the freeze brief
+  collapses no matter how it's worded ("wallpaper bolted to the wall", "identical
+  brushstrokes first frame to last", "any motion in the wall painting is an error"):
+  in every single-pass take the wall painting erupted its own spray plume mid-clip.
+  Diagnosis: a walking camera forces the model to re-render the scene each frame, and
+  the wave-motion language in the screen brief bleeds into the re-render.
+- **Take 10 (two-pass: static plate → screen-only edit):** SHIP. Pass 1 — shoot the
+  walk-up with **everything frozen, including the phone screen**: a pure
+  camera-through-a-static-room brief with zero motion language ("the entire scene is a
+  frozen moment; the image on the screen is a still photograph"). Models handle
+  walkthroughs of static rooms reliably — the painting held at quarter-second QA
+  granularity. Pass 2 — Seedance `video_edit` on that plate: "change ONLY what is
+  displayed on the phone screen … keep every other pixel exactly as it is", screen
+  motion briefed as scheduled events (crash in the first second, crash mid-clip, crash
+  near the end). Result: painting pixel-steady for all ten seconds while the screen
+  rides three distinct crashes in real time. **Lesson, now doctrine: when the camera
+  must travel, never ask for frozen-world and living-screen in one generation — shoot
+  the static plate first, then edit motion into the screen.**
 
 ## QA log — family-home discovery shoot, 20 shots (2026-09-17)
 

@@ -221,24 +221,30 @@ must depict this correctly:
   itself must read as frozen. Full-bleed footage, no app chrome. Never unrelated footage
   on the screen.
 - **Selling it in motion (video/film):** the phone reads as a **live camera, not a video
-  player**. Four cues do the selling: (1) the print's *frame* (and a sliver of its
-  surroundings) is visible *inside* the screen — the viewer sees the phone is pointed at
-  the wall, not playing a file; (2) the hand **moves like a person in awe** — drifting
-  across the print with a human, slightly uneven rhythm, pausing, tilting, leaning in,
-  with the on-screen view tracking like a viewfinder — never a mechanical constant-speed
-  pan; (3) the footage inside the screen plays at **real-time natural speed** — and the
-  brief names **events, not speeds**: "a wave breaks against the hull and throws spray in
-  the first second; the ship pitches through the swell; three distinct crashes in the
-  clip". Speed adjectives get ignored; scheduled events don't. Slow motion reads as a
-  still with a filter and hides the very thing being sold: that it's now a video; (4) the
-  film itself is **first-person POV, handheld** — the camera is the viewer's own eyes,
-  breathing and swaying, never a locked tripod. The world moving while the print stays
-  frozen (parallax only) is what proves the print is an *object*, not a screen. A static
-  hand or a locked camera kills the illusion the same way: it reads as someone watching
-  a clip that merely resembles the print.
+  player**. Four cues do the selling: (1) the screen honours the **orientation lock** —
+  either the print's *frame* is visible *inside* the screen, or the screen shows an
+  unmistakable **zoomed live view** of the same image in the same orientation — the
+  viewer sees the phone is pointed at the wall, not playing a file; (2) the hand **moves
+  like a person in awe** — drifting, pausing, tilting, leaning in, with the on-screen
+  view tracking like a viewfinder — never a mechanical constant-speed pan; (3) the
+  footage inside the screen plays at **real-time natural speed** — and the brief names
+  **events, not speeds**: "a wave breaks against the hull and throws spray in the first
+  second; the ship pitches through the swell; three distinct crashes in the clip". Speed
+  adjectives get ignored; scheduled events don't. Slow motion reads as a still with a
+  filter and hides the very thing being sold: that it's now a video; (4) the film itself
+  is **first-person POV** — handheld sway or a steadicam walk-up — the camera is the
+  viewer's own eyes, never a locked tripod. The world moving while the print stays
+  frozen (perspective only) is what proves the print is an *object*, not a screen.
 
-Reference film: `photography/phideo-mechanic-demo.mp4` — first-person museum demo, the
-painting still on the wall, alive inside the phone.
+- **Producing it (moving camera):** never ask a video model for a frozen world and a
+  living screen in one generation — under camera travel the screen's motion language
+  bleeds into the scene and the print starts animating. **Two passes:** first shoot the
+  camera move through a *fully static* scene (screen frozen too, zero motion words),
+  then a screen-only video edit ("change ONLY what is displayed on the phone screen")
+  with the motion briefed as scheduled events.
+
+Reference film: `photography/phideo-mechanic-demo.mp4` — first-person steadicam walk-up
+in the museum, the painting still on the wall, alive inside the phone.
 
 The manual sets four photography modes; the website adds a fifth. Every image should let a
 viewer understand the product without reading.
