@@ -259,14 +259,24 @@ staring at nothing, AI faces with obvious artefacts, purple/red duotones over fa
 
 ### Photography direction (added 2026-09-17)
 
-Reference shoot in `photography/` (six shots, Higgsfield Soul 2.0 / Soul Cinema, 2K).
-Every shot is directed like a sentence — one message, one composition, one light, one honest
-expression — and brand colour enters as **objects and light inside the scene** (plum ribbon,
-red pencil, plum mug, red raincoat, violet screen glow), never as a filter in post.
+Reference shoot in `photography/` — six shots plus three layout plates, **reshot in full on
+2026-09-17 (GPT-Image 2.5, 2K)** after the mechanic became canon. Every image is now
+mechanically true: wherever a print and a screen share the frame, the screen shows the *same*
+photograph alive (tighter crop allowed; the print's frame visible inside the screen is the
+strongest live-camera read), brighter and more saturated, while the real print reads frozen.
 
-Two registers: **everyday** (warm, window-lit: The Moment, Demonstrate, The Gift) and
-**campaign** (low-light, the screen carries the colour: Looking, The Wall, Two Worlds).
-The darker the scene, the more the screen becomes the light source.
+Every brief is written by five roles before a frame is shot: the **creative director** sets
+the one-sentence message, the **photographer** the composition and lens, the **set dresser**
+the environment and in-scene brand accents (plum ribbon, red pencil, plum mug, plum throw,
+red raincoat), the **lighting specialist** the light plan — the screen always the brightest,
+most saturated point — and the **graphic designer** the on-screen content and, on plates,
+the quiet copy footprints. Brand colour enters as **objects and light inside the scene**,
+never as a filter in post.
+
+Two registers: **everyday** (warm, window- or lamp-lit, joyful: The Moment, Demonstrate,
+The Wall, The Gift) and **campaign** (dramatic, the screen carries the colour: Looking,
+Two Worlds). Even the campaign register stays rich and luminous — dark ≠ dull; the emotion
+is wonder, never bleak.
 
 Rules for photos in layouts:
 

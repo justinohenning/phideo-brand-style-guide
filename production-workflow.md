@@ -70,9 +70,25 @@ with the scrim" — the scrim is for legibility, not for burying detail.
 
 **The mechanic is canon** (design-system §5, "The mechanic"): whenever a print and a
 screen share the frame, the screen shows the *same* image as the print — a slightly
-tighter crop is allowed (the phone is a zoomed-in window) — visibly alive and brighter
+tighter crop is allowed (the phone is a zoomed-in window), and the print's frame visible
+*inside* the screen is the strongest live-camera read — visibly alive and brighter
 than the frozen print beside it. The life stays inside the print's frame. Never unrelated
 footage, never app chrome, never a screen that contradicts the print it faces.
+
+**The crew (every shot brief is written by five roles, in this order):**
+
+- **Creative director** — the one-sentence message the frame must say, and the register.
+- **Photographer** — POV, lens, camera height, composition; point of interest placed per
+  the wireframe; always framed a little wider than instinct.
+- **Set dresser** — environment and props; the brand accents planted *in scene* (plum
+  ribbon/mug/throw, red pencil/raincoat/thread) — never colour in post.
+- **Lighting specialist** — the light plan: source, temperature, falloff; the phone screen
+  is always the single brightest, most saturated point; quiet zones fall away in *light*
+  (shadow, out-of-focus foreground), not in retouching.
+- **Graphic designer** — what the screen shows (the same image as the print, alive, per
+  the mechanic) and, on layout plates, the copy footprints the composition must keep quiet.
+
+One prompt/brief carries all five voices; a brief missing a role's answer isn't ready to shoot.
 
 ### 4 · Creative Director — QA gates
 
@@ -138,6 +154,37 @@ Final plates live in `photography/plate-{m,s,w}.png`; composites in the style gu
 - **CD round 2:** web SHIP · story SHIP · marketing FIX (screen content).
 - **CD round 3:** marketing SHIP — saturation measured: screen 0.55 vs faces 0.45. One
   non-blocking note on file: +⅓ stop on the screen if the plate is ever touched again.
+
+## QA log — full library reshoot (2026-09-17, all nine shipped)
+
+Once the mechanic became canon (see the demo-film log below), the entire photography
+library — six reference shots + three layout plates — was reshot on GPT-Image 2.5 (2K),
+every brief written by the five-role crew, every image gated on the mechanic.
+
+- **Batch 1 (9/9 generated):** photographer's cull passed all nine — no text artifacts
+  (the light-and-space prompt language from the earlier lesson held), mechanic read strong
+  across the set, and the camera-mode read (print's frame visible inside the screen)
+  landed on The Wall, Two Worlds and both studio plates.
+- **CD round 1:** six of nine SHIP. Three FIX — The Wall: phone floated beside the frame
+  it was "viewing" instead of overlapping it (camera-geometry break); The Gift: the screen
+  showed a *different* wedding moment than the print (mechanic violation, automatic fix);
+  Plate M: heads inside the 8% top-edge clearance.
+- **Fix pass:** all three repaired as targeted image-to-image edits on the approved takes
+  (reposition the phone over its frame; replace the screen with a tighter living crop of
+  the print's own scene; reframe wider for headroom) — cheaper and more consistent than
+  reshooting, since the rest of each frame was already approved.
+- **CD round 2:** nine of nine SHIP — occlusion geometry, screen-to-print match and
+  measured 8.2%/9.4% crown clearance all verified. Lesson: the mechanic gate catches
+  subtle breaks (a matching-but-different moment on the screen) that a general "on brand"
+  review sails past; keep it as its own gate.
+- **Composite round (the workflow's real gate — never the photo alone):** web hero SHIP;
+  marketing FIX — the 600×420 crop pushed the headline off the scrim onto the cardigan →
+  type block lowered (padding 6→2.5cqw) and the scrim start raised (36→32%); story FIX —
+  the lobe covered the print's top-left corner and the crop had no slack (phone already on
+  the right edge) → the *plate* was reframed wider via a targeted edit (cluster smaller,
+  right of centre, 12% margins) rather than fighting the crop. Bonus: the reframe put the
+  phone overlapping its print — a stronger live-camera read. Final: all three composites
+  SHIP. Lesson: when a crop has no slack, fix the plate, not the layout.
 
 ## QA log — mechanic demo film (2026-09-17)
 
