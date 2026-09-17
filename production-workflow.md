@@ -276,3 +276,28 @@ clearance on marketing — no room for further upward cropping.
   brief motion as things that happen at moments, not as a tempo. And POV sway is free
   realism: the world moving while the print stays frozen is itself proof the print is an
   object, not a screen.
+
+## QA log — family-home discovery shoot, 20 shots (2026-09-17)
+
+`photography/family-home/` — the first full narrative set shot under the post-client-review
+rulebook (brightness floor, rule 5, rule 6). Casting held across all 20 frames by shooting
+one anchor (fh-01) and generating the other 19 against it as an image reference — wardrobe
+anchors ("sage-green knit / cream blouse / mustard cardigan") did the identity work.
+Full brief in `photography/family-home/shot-list.md`.
+
+- **Photographer's cull:** 17/20 first pass. Fails: fh-05 (phone floating beside the
+  frame it displayed — the s04 geometry break again), fh-11 (screen showed a kite and a
+  third person the print doesn't contain), fh-15 (screen *wider* than the print).
+- **CD gate:** passed 16, added two the cull under-weighted — fh-06 (phone aimed past the
+  fridge snapshot, no honest orientation read) and fh-07 (phone displaying wall art from
+  across the room) — and correctly failed the first repairs of fh-11/fh-15 for still
+  drifting wide. The wide-drift is systemic: **image models ignore "tighter crop".**
+- **Second fix round: all 20 SHIP.** The briefing forms that finally worked, now doctrine:
+  - Zooms: *"the subjects appear LARGER on the screen than in the print, with less
+    scenery visible"* — state the size relationship, never the crop verb.
+  - Geometry: *"the phone partially overlaps the print it is viewing, the print's edges
+    visible around and behind the phone"* — the overlap is the read.
+- Set-level: variety verified (POV, close-up, overhead, low angle, doorway, motion, wide,
+  two-phone, dusk bookend); day-to-dusk discovery arc lands; no text artifacts in 24
+  generations; dusk closer (fh-20) passes the brightness floor — lamps carry it, screen
+  stays the brightest point.
