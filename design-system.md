@@ -176,8 +176,9 @@ staring at nothing, AI faces with obvious artefacts, purple/red duotones over fa
   (letterhead watermark at ~10% tint, presentation folder, envelope, social template corner).
 - **Lobe / tab** — white rounded tab that carries the logo and bites into a gradient hero
   (web nav, every email header). Radius ≈ 24–32px.
-- **Wave** — red/white/purple sweeping curve that closes a hero (mailer hero bottom, social
-  posts). Layered: red band, thin white band, purple.
+- ~~**Wave**~~ — *retired 2026-09-17.* The red/white/purple sweeping curve that closed heroes
+  (mailer hero bottom, social posts) is no longer part of the system — remove it from any
+  design that still carries it.
 - **Squircle window** — the AR frame above; also the "Endless Possibilities" media holder.
 - **Glass panel** — white 20–30% fill, backdrop blur ~20px, 1px white/40% border, 24–32px
   radius, soft outer shadow; sits on the mesh (feature captions, "OUR MISSION", forms).
@@ -216,8 +217,8 @@ staring at nothing, AI faces with obvious artefacts, purple/red duotones over fa
 ### Email (Mailercloud, 600px)
 - Header: white lobe with logo (600×92) → hero 600×363: saturated purple→plum gradient, white
   Amenti Regular headline ~34px with wide tracking, white outline pill sub-line ("Keep
-  memories alive", "Join Phideo to accept"), phone-window photo right, red/white wave at the
-  bottom.
+  memories alive", "Join Phideo to accept"), phone-window photo right. (The red/white wave
+  that used to close the hero is retired — see §6.)
 - Body: centred, Inter today → Poppins (`#5`), purple ink; H2 in Amenti Regular purple
   ("Exciting News!", "Forgot your password?"); bold purple for merge fields
   `{Name}` / `[FirstName]`.
