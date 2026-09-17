@@ -35,9 +35,9 @@ section:first-of-type{border-top:0}
 .flag{display:inline-block;font-size:12px;font-weight:600;letter-spacing:.04em;padding:2px 8px;border-radius:999px;background:var(--r20);color:#8F1418;vertical-align:middle;margin-left:6px}
 /* hero */
 .hero{position:relative;border-radius:32px;overflow:hidden;background:linear-gradient(135deg,var(--purple) 0%,#A02B69 55%,var(--red) 100%);color:#fff;padding:0;margin-top:24px;box-shadow:var(--shadow)}
-.hero .lobe{position:absolute;top:0;left:0;background:var(--bg);padding:24px 52px 20px 36px;border-bottom-right-radius:999px}
+.hero .lobe{position:absolute;top:0;left:0;background:var(--bg);padding:24px 44px 20px 36px;border-bottom-right-radius:32px}
 .hero .lobe svg{height:40px;width:auto;display:block}
-.hero .lobe::before,.hero .lobe::after{content:"";position:absolute;width:28px;height:28px;background:radial-gradient(circle at 100% 100%,transparent 27.5px,var(--bg) 28px)}
+.hero .lobe::before,.hero .lobe::after{content:"";position:absolute;width:32px;height:32px;background:radial-gradient(circle at 100% 100%,transparent 31.5px,var(--bg) 32px)}
 .hero .lobe::after{left:100%;top:0}
 .hero .lobe::before{top:100%;left:0}
 .hero-in{padding:112px 40px 44px;display:grid;grid-template-columns:1.2fr 1fr;gap:32px;align-items:end}
@@ -139,7 +139,7 @@ section:first-of-type{border-top:0}
 .feature h3{color:var(--violet);font-size:20px}
 .mail{max-width:420px;border-radius:18px;overflow:hidden;border:1px solid var(--line);background:var(--surface);font-size:13px}
 .mail .hd{position:relative;background:linear-gradient(135deg,var(--purple),#8E1C6A 70%,var(--red));color:#fff;padding:64px 22px 54px;overflow:hidden}
-.mail .hd .lobe{position:absolute;top:0;left:0;background:var(--surface);padding:13px 28px 11px 18px;border-bottom-right-radius:999px}
+.mail .hd .lobe{position:absolute;top:0;left:0;background:var(--surface);padding:13px 24px 11px 18px;border-bottom-right-radius:16px}
 .mail .hd .lobe svg{height:24px;width:auto;display:block}
 .mail .hd .lobe::before,.mail .hd .lobe::after{content:"";position:absolute;width:16px;height:16px;background:radial-gradient(circle at 100% 100%,transparent 15.5px,var(--surface) 16px)}
 .mail .hd .lobe::after{left:100%;top:0}
@@ -554,7 +554,7 @@ footer{margin-top:40px;font-size:13px;color:var(--ink-3)}
   <h2>The recurring moves</h2>
   <div class="grid g3" style="margin-top:18px">
     <div class="card"><h4>Ring &amp; arc</h4><p>The o icon blown up and cropped off the page edge: letterhead watermark at 10%, folder, envelope, social corners.</p></div>
-    <div class="card"><h4>Lobe</h4><p>Tab in the surrounding background colour carrying the logo, cutting into a gradient hero. Pill-radius outer corner; the joins to the hero edges curve inward (concave) so it reads as the background cutting in, not a 90° notch. Logo sized to stay legible — but the hero stays the point. Web nav and every email header.</p></div>
+    <div class="card"><h4>Lobe</h4><p>Tab in the surrounding background colour carrying the logo, cutting into a gradient hero. The joins to the hero edges curve inward (concave) and the outer corner curves outward at the <em>same radius</em> — one consistent curve speed — so it reads as the background cutting in, not a 90° notch. Logo sized to stay legible — but the hero stays the point. Web nav and every email header.</p></div>
     <div class="card"><h4>Squircle window</h4><p>The AR frame: ~40px radius, 1px white/40% stroke, soft glow. Also the “Endless Possibilities” media holder.</p></div>
     <div class="card"><h4>Glass panel</h4><p>White 20–30% fill, blur ~20px, 1px white/40% border, radius 24–32, soft shadow. Captions, forms, “Our mission”.</p></div>
     <div class="card"><h4>Tracked tagline pill</h4><p>Translucent dark pill, white Amenti with wide word-spacing: “Scan.&nbsp;&nbsp;Watch.&nbsp;&nbsp;Experience.”</p></div>

@@ -175,9 +175,10 @@ staring at nothing, AI faces with obvious artefacts, purple/red duotones over fa
 - **Ring & arc** — the `o` icon blown up as a page device: giant ring cropped off the edge
   (letterhead watermark at ~10% tint, presentation folder, envelope, social template corner).
 - **Lobe / tab** — tab in the *surrounding background colour* that carries the logo and cuts
-  into a gradient hero (web nav, every email header). Outer corner is a pill radius; the two
-  joins where the tab meets the hero edges curve **inward** (concave fillets), so it reads as
-  the background cutting into the hero rather than a 90° notch. The logo inside must stay
+  into a gradient hero (web nav, every email header). The two joins where the tab meets the
+  hero edges curve **inward** (concave fillets), and the outer corner curves outward at the
+  **same radius** — keep one consistent curve speed on all three, or the arcs won't meet
+  cleanly. It reads as the background cutting into the hero rather than a 90° notch. The logo inside must stay
   legible — it is a word that needs to be read — but the lobe supports the content: the hero
   is always the point of the graphic, not the logo.
 - ~~**Wave**~~ — *retired 2026-09-17.* The red/white/purple sweeping curve that closed heroes
