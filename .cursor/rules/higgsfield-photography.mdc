@@ -1,0 +1,29 @@
+---
+description: Phideo photography generation rules for Higgsfield — no text in images, vibrant happy palette
+alwaysApply: true
+---
+
+# Higgsfield image generation for Phideo
+
+## No text in images — ever
+
+Generated photos must be clean: no lettering of any kind.
+
+- End every image prompt with: "Clean photograph with absolutely no text, no lettering,
+  no typography, no captions, no signage, no watermarks, no logos, no UI labels."
+- Never use layout or design words in shot prompts (e.g. "space for a headline",
+  "built to carry type", "hero", "CTA") — models render them as literal baked-in text.
+  Describe *light and space* instead: "the bottom third falls to soft shadow",
+  "an empty wall fills the left of frame".
+- QA every generated image for stray text before shipping; any lettering = reshoot.
+
+## Happy brand — vibrant and light
+
+Phideo is a happy brand. Default grade is bright, vibrant and light:
+
+- Prompt for: warm natural daylight, golden hour, airy rooms, saturated colour,
+  joyful genuine expressions, vivid living phone screens.
+- Avoid: muddy, desaturated, gloomy, oppressive or horror-adjacent moods.
+- The campaign register (design-system §5) may go darker for drama, but even then the
+  colour stays rich and the screen glows vividly — dark ≠ dull, and the emotion stays
+  positive (wonder, awe), never bleak.
