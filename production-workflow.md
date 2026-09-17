@@ -212,12 +212,23 @@ every brief written by the five-role crew, every image gated on the mechanic.
   now a *video*. Lessons: (a) video models ignore vague motion verbs — write trajectories
   as explicit start/end positions; (b) motion cues (frame inside the screen + a moving
   hand) are what sell "camera, not playback".
-- **Take 6 (natural motion + real-time speed):** SHIP — hand direction rewritten as
-  human behaviour ("moves like a person in awe, taking it all in: uneven rhythm, slows
-  as something catches the eye, tilts, leans in"), and the screen footage explicitly
-  briefed as "real-time natural speed, absolutely no slow motion — waves crash at the
-  pace of real waves". Verified in QA: frames 0.5s apart show the on-screen wave fully
-  reorganising (real-time energy) while the wall painting stays pixel-frozen; the hand's
-  height, tilt and distance all vary across the pan. Lesson: brief the hand as a
-  *character with an emotion*, not a camera move — and name the playback speed, because
-  models default to dreamy slow motion.
+- **Take 6 (natural motion + real-time speed):** shipped, then pulled after client
+  review — hand movement natural (kept), but two notes: the locked-down camera should be
+  a first-person POV from the person holding the phone, and the screen *still* read as
+  slow motion ("I was expecting waves crashing and the ship riding them through the
+  roughness; instead a slow clip of sea slowly moving"). Naming the speed ("real-time,
+  no slow motion") wasn't enough — the model nodded and drifted anyway.
+- **Take 7 (POV + events, not speeds):** SHIP — two changes. (a) Camera rebriefed as
+  first-person POV: "the camera IS the eyes of the person holding the phone — it
+  breathes, sways, drifts with a human rhythm, never a locked tripod", with the painting
+  pinned as "a physical printed object; the only apparent change is parallax from the
+  swaying viewpoint". (b) The screen footage briefed as **scheduled events instead of
+  speed adjectives**: "in the very first second a wave breaks against the hull and throws
+  spray; the ship pitches and rolls, bow plunging; at least three distinct wave crashes
+  in the clip". Verified in QA: crashes land at ~0.5–1.0s and ~6.0–6.5s with whitecaps
+  fully reorganising between frames 0.5s apart; the wall painting stays pixel-identical
+  under a continuously drifting viewpoint; the gilded frame stays visible inside the
+  screen throughout. Lesson: models ignore speed adjectives but obey *scheduled events* —
+  brief motion as things that happen at moments, not as a tempo. And POV sway is free
+  realism: the world moving while the print stays frozen is itself proof the print is an
+  object, not a screen.
