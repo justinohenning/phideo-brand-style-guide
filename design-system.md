@@ -28,15 +28,16 @@ Two primaries, no formal secondary (manual: "we do not have a secondary palette�
 possible the primary colours should be"). Red is the **action** colour — buttons, links,
 anything tappable. Purple carries structure and mood.
 
-### Primaries — canonical values `(#1 #2 #3)`
+### Primaries — canonical values ✅ *settled 2026-09-17: Brand Manual V2 is the source of truth*
 | token | hex | RGB | CMYK (print, from manual) | where it is already used |
 |---|---|---|---|---|
 | `purple` (Figma "Deep Plumb") | **#702283** | 112 34 131 | C70 M100 Y0 K0 | manual spec, asset hub, Figma mailer var, live site `--bde-palette-title` |
 | `red` | **#E52329** | 229 35 41 | C0 M95 Y85 K0 | manual spec, asset hub, Figma mailer var, web hero gradient |
 
-Known drift of the same two colours (don't introduce more): manual's own rendered swatches
-#6F2B90 / #EE2F35; logo SVGs on the hub #722C8F / #EC1B25; asset-hub CMYK is auto-derived
-(15,74,0,49 / 0,85,82,10) and must not go to print.
+Known drift of the same two colours (don't introduce more — all superseded by the manual's
+spec values above): manual's own rendered swatches #6F2B90 / #EE2F35; logo SVGs on the hub
+#722C8F / #EC1B25; asset-hub CMYK is auto-derived (15,74,0,49 / 0,85,82,10) and must not go
+to print. Open follow-ups: re-export the logo files and correct the hub CMYK cards.
 
 Contrast on white: purple 9.35:1 (AAA), red 4.56:1 (AA for text ≥ 18px / bold). **Purple on
 red (or red on purple) is 2.05:1 — never set text or the logo one on the other**; the manual's
@@ -272,6 +273,7 @@ welcome once per piece, not more.
 
 ## 10. Open decisions
 All numbered `(#n)` items above are collected with evidence and a recommendation in
-[discrepancies.md](discrepancies.md). Until they're settled: build with #702283 / #E52329,
-Amenti headings, Poppins body, ® logo files from the hub, and keep the violet family off
-anything printed.
+[discrepancies.md](discrepancies.md). **Settled:** #1 #2 #3 — the Brand Manual V2 is the
+source of truth for the primaries: purple **#702283**, red **#E52329**, manual CMYK for
+print. For the rest, until they're settled: build with Amenti headings, Poppins body,
+® logo files from the hub, and keep the violet family off anything printed.

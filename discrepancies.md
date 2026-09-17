@@ -7,9 +7,9 @@
 
 | # | topic | decision |
 |---|---|---|
-| 1 | purple hex | |
-| 2 | red hex | |
-| 3 | CMYK values for print | |
+| 1 | purple hex | ✅ Brand Manual V2 is the source of truth → **#702283** |
+| 2 | red hex | ✅ Brand Manual V2 is the source of truth → **#E52329** |
+| 3 | CMYK values for print | ✅ follows #1/#2 — manual's CMYK (C70 M100 Y0 K0 / C0 M95 Y85 K0) |
 | 4 | web violet/pink family | |
 | 5 | typefaces (Amenti + which body font; licence) | |
 | 6 | type scale | |
@@ -30,15 +30,18 @@
 - Logo SVGs on the hub (`Logo_Final-color.svg`): **#722C8F**.
 - Figma Mailer variable "Deep Plumb": #702283. Live site `--bde-palette-title`: #702283. Website Figma "Endless Possibilities" heading: #702283.
 - **Recommend:** #702283 everywhere. Re-export the five logo SVG/PNGs with #702283 / #E52329 fills so the logo and the UI stop being ~1 step apart on the same page. Low risk — the drift is barely visible, but a design system with two purples is not a system.
+- **Decision (2026-09-17):** the Brand Manual V2 spec is the source of truth → **#702283**. Follow-up: re-export the logo files (see recommendation).
 
 ### 2 · Red — same story
 - Manual spec: **#E52329**. Manual render: **#EE2F35** (and #ED1C26 on the cover logo). Logo SVGs: **#EC1B25**. Figma var / live site: #E52329.
 - **Recommend:** #E52329; fix the logo files together with #1.
+- **Decision (2026-09-17):** the Brand Manual V2 spec is the source of truth → **#E52329**. Fix the logo files together with #1.
 
 ### 3 · CMYK — manual vs asset hub
 - Manual: purple **C70 M100 Y0 K0**, red **C0 M95 Y85 K0** (designed values, printed on the stationery).
 - Asset hub "Colors" cards: purple **15,74,0,49**, red **0,85,82,10** — auto-derived from the hex by Brandbay; 49% black in the purple would print muddy.
 - **Recommend:** the manual's CMYK for anything printed; correct the hub cards (or delete CMYK from them) so a printer never picks the wrong ones up.
+- **Decision (2026-09-17):** follows from #1/#2 — Brand Manual V2 is the source of truth, so use its CMYK (**C70 M100 Y0 K0** purple, **C0 M95 Y85 K0** red). Follow-up: correct the asset-hub CMYK cards.
 
 ### 4 · The web violet/pink family is not in the manual
 - Manual: "we do not have a secondary palette"; tints "should be used sparingly"; primaries at full saturation.
