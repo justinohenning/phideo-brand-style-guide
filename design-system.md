@@ -229,8 +229,22 @@ staring at nothing, AI faces with obvious artefacts, purple/red duotones over fa
   Phideo. All Rights Reserved."
 
 ### Email (Mailercloud, 600px)
-- Header: white lobe with logo (600×92) → hero 600×363: saturated purple→plum gradient, white
-  Amenti Regular headline ~34px with wide tracking, white outline pill sub-line ("Keep
+- **Hero alignment (2026-09-17):** the gradient hero is "blank" — there is no grid to align
+  to — so hero content is always **centred**: headline, sub-lines and buttons on one axis.
+- **Template family (2026-09-17):** one skeleton (lobe header → hero → body → footer), four
+  volumes by intent. Hierarchy comes from the scale of the hero + headline; contrast comes
+  from where red is allowed — **red only on the send's primary action**, one CTA per send.
+  - *General communication* — the baseline: hero 600×363, Amenti Regular 34px headline,
+    tagline pill, purple button, red reserved for the signature.
+  - *Marketing* — loudest: hero 600×420, Display-scale Amenti **Bold** headline, tracked
+    eyebrow for the campaign name, the send's only **red** CTA inside the hero.
+  - *Education / informational* — hero recedes to 600×260 (headline only); the body leads
+    with numbered steps (purple circles, bold purple titles, grey detail); purple button —
+    learning, not selling.
+  - *Automated / transactional* — quietest: no hero; small centred 2-tone logo, a thin
+    purple→red gradient rule, utility type, muted reassurance line, purple button.
+- Header: white lobe with logo (600×92) → hero: saturated purple→plum gradient, white
+  Amenti Regular headline with wide tracking, white outline pill sub-line ("Keep
   memories alive", "Join Phideo to accept"), phone-window photo right. (The red/white wave
   that used to close the hero is retired — see §6.)
 - Body: centred, Inter today → Poppins (`#5`), purple ink; H2 in Amenti Regular purple
