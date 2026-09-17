@@ -14,8 +14,8 @@ Every photo-led deliverable (web hero, email hero, social, OOH) runs:
 2. WIREFRAME   the layout decides placement first: type, CTA, logo, safe zones
 3. SHOOT       the photographer shoots TO the wireframe — negative space is
                composed in-camera where the type will live
-4. CD QA       the Creative Director signs off against three gates:
-               meets the goal · aesthetically strong · on brand
+4. CD QA       the Creative Director signs off against four gates:
+               meets the goal · aesthetically strong · on brand · mechanically true
 ```
 
 A deliverable that skips a step goes back. A photo that wasn't shot to the wireframe is a
@@ -69,6 +69,12 @@ hard constraints**. Compose the negative space in camera: a foreground surface, 
 to shadow, an empty wall. Do not plan to "fix it with the scrim" — the scrim is for
 legibility, not for burying detail.
 
+**The mechanic is canon** (design-system §5, "The mechanic"): whenever a print and a
+screen share the frame, the screen shows the *same* image as the print — a slightly
+tighter crop is allowed (the phone is a zoomed-in window) — visibly alive and brighter
+than the frozen print beside it. The life stays inside the print's frame. Never unrelated
+footage, never app chrome, never a screen that contradicts the print it faces.
+
 ### 4 · Creative Director — QA gates
 
 Review the **final composite** (photo + scrim + type + lobe + CTA), never the photo alone:
@@ -78,6 +84,10 @@ Review the **final composite** (photo + scrim + type + lobe + CTA), never the ph
    the brightest point? Would you stop scrolling?
 3. **Brand** — scrim per photography rule 1, screen sacred per rule 2, accents in-scene
    per rule 3, containers per rule 4; type scale, tracking and red-usage per the system.
+4. **Mechanic** — if a print and a screen share the frame: same image on both, screen a
+   slightly tighter living crop, print frozen, life inside the print's frame
+   (design-system §5, "The mechanic"). A screen showing unrelated footage is an automatic
+   reshoot, not a fix.
 
 Verdict: **ship / fix (specific notes) / reshoot**. Two failed fixes = reshoot.
 
@@ -127,3 +137,18 @@ Final plates live in `photography/plate-{m,s,w}.png`; composites in the style gu
 - **CD round 2:** web SHIP · story SHIP · marketing FIX (screen content).
 - **CD round 3:** marketing SHIP — saturation measured: screen 0.55 vs faces 0.45. One
   non-blocking note on file: +⅓ stop on the screen if the plate is ever touched again.
+
+## QA log — mechanic demo film (2026-09-17)
+
+`photography/phideo-mechanic-demo.mp4` — first-person museum demo of the mechanic
+(directed GPT-Image start frame → image-to-video, 8s, 1080p).
+
+- **Take 1 (Kling 3.0, slow push-in):** FAIL on the mechanic — the wall painting's sea
+  visibly animated. Lesson: camera movement forces the model to re-render the whole scene;
+  a "frozen background" brief needs a locked camera.
+- **Take 2 (Kling 3.0, locked camera, hard freeze language):** better — gallery rock
+  solid — but the painting's waves still drifted subtly. FAIL.
+- **Take 3 (Seedance 2.5, same locked-camera brief):** SHIP — painting pixel-stable
+  across the full 8s, all motion inside the phone screen. Lesson on file: for
+  selective-motion shots ("only X moves"), Seedance holds the frozen regions; Kling
+  wants to animate everything it sees.

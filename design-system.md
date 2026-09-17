@@ -201,6 +201,29 @@ or gradient, monotone white, nothing drawn around it.
 
 ## 5. Imagery — the AR language
 
+### The mechanic (canon, 2026-09-17)
+
+What actually happens when a phideo plays — every photograph, video and marketing composite
+must depict this correctly:
+
+- **The photo itself comes to life.** With the naked eye you see a still print. Through the
+  phone, the *same* photograph is moving footage. The phone is a **window into the digital
+  world**, not a player for separate content.
+- **The life stays inside the photograph's own frame.** The motion never spills past the
+  print's edges, never cuts away, never becomes a different scene. Frame on the wall =
+  frame of the video.
+- **The two eyes don't match exactly.** The phone's view may be modestly **zoomed in**
+  relative to the naked eye — a tighter crop of the same image — so the motion reads
+  clearly on the small screen. Framing, subject and palette are always the print's own.
+- **In any shot where print and screen share the frame:** the screen shows the same image
+  as the visible print (slightly tighter crop allowed), unmistakably alive — spray, drift,
+  motion light — and brighter/more saturated than the still print beside it. The print
+  itself must read as frozen. Full-bleed footage, no app chrome. Never unrelated footage
+  on the screen.
+
+Reference film: `photography/phideo-mechanic-demo.mp4` — first-person museum demo, the
+painting still on the wall, alive inside the phone.
+
 The manual sets four photography modes; the website adds a fifth. Every image should let a
 viewer understand the product without reading.
 

@@ -23,6 +23,7 @@ Developed by **Lunchbox Agency**, 15 September 2026, from every brand source in 
 | [`logo/phideo-logo-color-hub-original.svg`](logo/phideo-logo-color-hub-original.svg) | The same file as it sits on the asset hub today (`#722C8F` / `#EC1B25`) — kept for comparison, see discrepancy #1. |
 | `photography/phideo-photo-0{1..6}-*.png` | The reference photoshoot (Higgsfield Soul 2.0 / Soul Cinema, 2K): six directed shots covering the everyday and campaign registers — see the Photography section of the guide for the shot notes and the photo-treatment rules. |
 | `photography/plate-{m,s,w}.png` | Layout plates shot **to the wireframe** (subject top ~55%, type-safe negative space bottom ~45%) and passed through CD QA — used by the photo-hero demo and the two photo-hero email templates. |
+| `photography/phideo-mechanic-demo.mp4` | First-person film of **the mechanic** (design-system §5): a still painting in a museum, alive inside the phone — the canonical reference for how a phideo behaves. Seedance 2.5 from a directed GPT-Image start frame. |
 | [`production-workflow.md`](production-workflow.md) | The photo-led production pipeline: goal → wireframe → shoot → CD QA, with role briefs, the W1 wireframe, the worked plate briefs and the QA log. Nothing photo-led ships without it. |
 
 ## The short version
